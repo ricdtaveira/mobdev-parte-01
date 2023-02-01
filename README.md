@@ -1,1 +1,2 @@
-# Desenvolvimento App Mobile - Parte 1 (DART) 
+#mobdev-parte-01
+Desenvolvimento de Aplicativos Móveis com a linguagem DART.  
