@@ -1,4 +1,4 @@
-# Instalação do SDK do DART #
+#2 SDK do DART #
 
 >
 O Software Development Kit (SDK) reune o compilador, utilitários e bibliotecas da linguagem.
@@ -11,4 +11,23 @@ O SDK opera em conjunto com uma IDE (Integrated Development Environment).
 >
 Um IDE é um software para criar aplicações que combina ferramentas comuns de 
 desenvolvedor em uma única interface de usuário gráfica (GUI).
+>
+
+## 2.1 Instalação do SDK ##
+
+>
+O SDK está disponivel para download em https://dart.dev/get-dart/archive.
+>
+>
+Na seção `stable channel` é possível selecionar o número da versão estável e o sistema operacional 
+associado.
+>
+Um arquivo zipado com a atual versão estável reune todos os componentes do SDK.
+>
+>
+Após fazer o download, descompacte o arquivo zipado em um diretório. 
+>
+>
+O Path (caminho relativo do diretório) onde reside o diretório 'bin' deverá compor a lista 
+de diretórios da variével de ambiente PATH do sistema operacional.
 >
