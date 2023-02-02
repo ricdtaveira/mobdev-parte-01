@@ -1,7 +1,7 @@
-# 2 SDK do DART #
+# 2. SDK do DART #
 
 >
-O Software Development Kit (SDK) reune o compilador, utilitários e bibliotecas da linguagem.
+O Software Development Kit (SDK) é um conjunto de softwares que reune o compilador, utilitários e bibliotecas da linguagem.
 >
 >
 O SDK dá suporte ao processo de edição, compilação, depuração e manutenção do código de uma aplicação.
