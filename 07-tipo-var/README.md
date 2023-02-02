@@ -1,1 +1,1 @@
-# Váriaveis do Tipo Var #
+# Variáveis do Tipo Var #

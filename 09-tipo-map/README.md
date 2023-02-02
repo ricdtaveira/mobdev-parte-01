@@ -1,1 +1,1 @@
-# Váriaveis do Tipo Map #
+# Variáveis do Tipo Map #

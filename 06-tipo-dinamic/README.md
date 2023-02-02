@@ -1,1 +1,1 @@
-# Váriaveis doTipo Dinamic #
+# Variáveis do Tipo Dinamic #

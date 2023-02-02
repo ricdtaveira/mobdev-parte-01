@@ -1,2 +1,2 @@
 # mobdev-parte-01
-Desenvolvimento de Aplicativos Móveis com a linguagem DART.  
+Desenvolvimento de Aplicativos Móveis usando a linguagem DART.  

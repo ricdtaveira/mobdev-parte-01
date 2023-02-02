@@ -1,1 +1,1 @@
-# Váriaveis do Tipo List #
+# Variáveis do Tipo List #
