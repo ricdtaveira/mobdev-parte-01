@@ -59,7 +59,7 @@ de diretórios da variével de ambiente `PATH` do sistema operacional.
 **Figura-05 Editar Variáveis de Ambiente PATH**
 >
 >
-![Editar Variavéis de Ambiente PATH.](/98-figuras/02-instalacao/editar-variavel-ambiente.png "Edição de Variável de Ambiente PATH.")
+![Editar Variável de Ambiente PATH.](/98-figuras/02-instalacao/editar-variavel-ambiente.png "Edição de Variável de Ambiente PATH.")
 >
 
 >
@@ -68,3 +68,14 @@ de diretórios da variével de ambiente `PATH` do sistema operacional.
 >
 ![Teste de acesso ao SDK do DAR.](/98-figuras/02-instalacao/teste-acesso-sdk.png "Teste de Acesso ao SDK.")
 >
+
+## 2.2 Teste do SDK do DART ##
+>
+Um teste de uso do SDK do Dart pode ser feito da seguinte forma:
+>
+>>
+1. Criar um snippet (pequeno trecho de código) DART;
+1. Executar o snippet DART. 
+>>
+
+
