@@ -1,1 +1,1 @@
-# Instalação do VSCode com extensões do DART #
+# Instalação do VSCode com extensões para a linguagem DART #
