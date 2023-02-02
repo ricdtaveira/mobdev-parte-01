@@ -56,10 +56,10 @@ de diretórios da variével de ambiente `PATH` do sistema operacional.
 >
 
 >
-**Figura-05 Editar Variáveis de Ambiente do Windows**
+**Figura-05 Editar Variáveis de Ambiente PATH**
 >
 >
-![Editar Variavéis de Ambiente do Windows.](/98-figuras/02-instalacao/editar-variavel-ambiente.png "Edição de Variáveis de Ambiente do Windows.")
+![Editar Variavéis de Ambiente PATH.](/98-figuras/02-instalacao/editar-variavel-ambiente.png "Edição de Variável de Ambiente PATH.")
 >
 
 >
