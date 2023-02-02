@@ -9,5 +9,10 @@ desenvolver aplicações para dispositivos mobile, desktop e servidores.
 É uma linguagem que implementa o Paradigma de Programação Orientada a Objeto.
 >
 >
-Foi selecionada pela GOOGLE para implementar o Framework FLUTTER.
+O DART foi a linguagem selecionada pela GOOGLE para implementar o Framework FLUTTER.
+>
+>
+O Framework FLUTTER permite o desenvolvimento de aplicações mobile para as plataformas
+ANDROID e IOS. Essa característica do FLUTTER viabiliza um unico código fonte desenvolvido pode ser 
+aplicado a duas plataformas nativas.
 >
