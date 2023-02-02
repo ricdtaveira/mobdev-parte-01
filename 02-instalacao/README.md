@@ -42,8 +42,29 @@ de diretórios da variével de ambiente `PATH` do sistema operacional.
 ![Diretório do SDK.](/98-figuras/02-instalacao/diretorio-sdk.png "Diretório do SDK do Dart.")
 >
 >
-**Figura-03 Configuração das Variáveis de Ambiente do Windows**
+**Figura-03 Propriedades das Variáveis de Ambiente do Windows**
 >
 >
-![Configuração das variavéis de Amiente do Windows.](/98-figuras/02-instalacao/diretorio-sdk.png "Configuração das Variáveis de Ambiente do Windows.")
+![Propriedades das Variavéis de Ambiente do Windows.](/98-figuras/02-instalacao/propriedades.png "Propriedades das Variáveis de Ambiente do Windows.")
+>
+
+>
+**Figura-04 Variáveis de Ambiente do Windows**
+>
+>
+![Propriedades das Variavéis de Ambiente do Windows.](/98-figuras/02-instalacao/propriedades.png "Variáveis de Ambiente do Windows.")
+>
+
+>
+**Figura-05 Editar Variáveis de Ambiente do Windows**
+>
+>
+![Editar Variavéis de Ambiente do Windows.](/98-figuras/02-instalacao/editar-variavel-ambiente.png "Edição de Variáveis de Ambiente do Windows.")
+>
+
+>
+**Figura-06 Testar acesso ao SDK pela linha de comando**
+>
+>
+![Teste de acesso ao SDK do DAR.](/98-figuras/02-instalacao/teste-acesso-sdk.png "Teste de Acesso ao SDK.")
 >
