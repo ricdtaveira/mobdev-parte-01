@@ -52,7 +52,7 @@ de diretórios da variével de ambiente `PATH` do sistema operacional.
 **Figura-04 Variáveis de Ambiente do Windows**
 >
 >
-![Propriedades das Variavéis de Ambiente do Windows.](/98-figuras/02-instalacao/propriedades.png "Variáveis de Ambiente do Windows.")
+![Edição de Variavéis de Ambiente do Windows.](/98-figuras/02-instalacao/editar-variavel-ambiente.png "Edição de Variáveis de Ambiente.")
 >
 
 >
