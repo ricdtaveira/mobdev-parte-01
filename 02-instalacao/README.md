@@ -28,6 +28,6 @@ Um arquivo zipado com a atual versão estável reune todos os componentes do SDK
 Após fazer o download, descompacte o arquivo zipado em um diretório. 
 >
 >
-O Path (caminho relativo do diretório) onde reside o diretório 'bin' deverá compor a lista 
-de diretórios da variével de ambiente PATH do sistema operacional.
+O Path (caminho relativo do diretório) onde reside o diretório `bin` deverá compor a lista 
+de diretórios da variével de ambiente `PATH` do sistema operacional.
 >
