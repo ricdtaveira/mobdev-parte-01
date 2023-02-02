@@ -78,4 +78,16 @@ Um teste de uso do SDK do Dart pode ser feito da seguinte forma:
 1. Executar o snippet DART. 
 >>
 
+### 2.2.1 Código do Snippet ###
+>
+Criar um arquivo `hello.dart'.
+
+```
+void main() {
+  print('Hello, Dart!');
+}
+
+````
+
+### 2.2.2 Compilação e Execução do Snippet ###
 
