@@ -1,0 +1,1 @@
+# Váriaveis doTipo Dinamic #
