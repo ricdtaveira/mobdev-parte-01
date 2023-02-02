@@ -13,6 +13,9 @@ O DART foi a linguagem selecionada pela GOOGLE para implementar o Framework FLUT
 >
 >
 O Framework FLUTTER permite o desenvolvimento de aplicações mobile para as plataformas
-ANDROID e IOS. Essa característica do FLUTTER viabiliza um unico código fonte desenvolvido pode ser 
+ANDROID e IOS. 
+>
+>
+Essa característica do FLUTTER viabiliza o desenvolvimento de um unico código fonte que pode ser 
 aplicado a duas plataformas nativas.
 >
