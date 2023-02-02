@@ -101,7 +101,7 @@ void main() {
 
 ## 2.3 Atividade ##
 
-<
+>
 Executar as seguintes atividades:
 
 >>
@@ -109,4 +109,4 @@ Executar as seguintes atividades:
 1. Testar a execução de um snippet Dart;
 >>
 
-<
+>
