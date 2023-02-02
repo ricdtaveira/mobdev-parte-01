@@ -74,20 +74,27 @@ de diretórios da variével de ambiente `PATH` do sistema operacional.
 Um teste de uso do SDK do Dart pode ser feito da seguinte forma:
 >
 >>
-1. Criar um snippet (pequeno trecho de código) DART;
-1. Executar o snippet DART. 
+1. Criar um snippet (pequeno trecho de código) DART e salvá-lo em um 
+diretório acessível;
+1. Entrar nesse diretório com o comando `cd <nome-do-diretório>`; 
+1. Executar o snippet DART com o comando `dart run hello.dart`;
 >>
 
 ### 2.2.1 Código do Snippet ###
 >
-Criar um arquivo `hello.dart'.
+Criar um arquivo `hello.dart' em um diretório onde é permitido a gravação de arquivos.
 
 ```
 void main() {
   print('Hello, Dart!');
 }
 
-````
-
+```
 ### 2.2.2 Compilação e Execução do Snippet ###
 
+>
+**Figura-07 Execução do Snippet hello.dat**
+>
+>
+![Execução do snippet hello.dart.](/98-figuras/02-instalacao/cmd-execucao.png "Execução do Snippet.")
+>
