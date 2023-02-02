@@ -31,3 +31,10 @@ Após fazer o download, descompacte o arquivo zipado em um diretório.
 O Path (caminho relativo do diretório) onde reside o diretório `bin` deverá compor a lista 
 de diretórios da variével de ambiente `PATH` do sistema operacional.
 >
+>
+Figura-01 Site do SDK do DART
+>
+![SDK do Dart.](/98-figuras/02-instalacao/stable.png "SDK do Dart.")
+
+
+>

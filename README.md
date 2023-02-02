@@ -16,6 +16,6 @@ O Framework FLUTTER permite o desenvolvimento de aplicações mobile para as pla
 ANDROID e IOS. 
 >
 >
-Essa característica do FLUTTER viabiliza o desenvolvimento de um unico código fonte que pode ser 
-aplicado a duas plataformas nativas.
+Essa característica do FLUTTER viabiliza o desenvolvimento de um unico código fonte que 
+pode gerar um objeto a uma das plataformas nativas.
 >
