@@ -98,3 +98,15 @@ void main() {
 >
 ![Execução do snippet hello.dart.](/98-figuras/02-instalacao/cmd-execucao.png "Execução do Snippet.")
 >
+
+## 2.3 Atividade ##
+
+<
+Executar as seguintes atividades:
+
+>>
+1. Instalar o SDK do Dart;
+1. Testar a execução de um snippet Dart;
+>>
+
+<
