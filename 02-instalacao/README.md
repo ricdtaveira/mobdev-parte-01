@@ -16,7 +16,7 @@ desenvolvedor em uma única interface de usuário gráfica (GUI).
 ## 2.1 Instalação do SDK ##
 
 >
-O SDK está disponivel para download em https://dart.dev/get-dart/archive.
+O SDK está disponivel para download em [Site download do DART] (https://dart.dev/get-dart/archive/).
 >
 >
 Na seção `stable channel` é possível selecionar o número da versão estável e o sistema operacional 
@@ -35,6 +35,15 @@ de diretórios da variével de ambiente `PATH` do sistema operacional.
 Figura-01 Site do SDK do DART
 >
 ![SDK do Dart.](/98-figuras/02-instalacao/stable.png "SDK do Dart.")
-
-
+>
+Figura-02 Diretório com o SDK descompactado
+>
+>
+![Diretório do SDK.](/98-figuras/02-instalacao/diretorio-sdk.png "Diretório do SDK do Dart.")
+>
+>
+Figura-03 Configuração das Variáveis de Ambiente do Windows
+>
+>
+![Configuração das variavéis de Amiente do Windows.](/98-figuras/02-instalacao/diretorio-sdk.png "Configuração das Variáveis de Ambiente do Windows.")
 >
