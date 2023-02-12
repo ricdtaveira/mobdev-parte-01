@@ -20,11 +20,10 @@ dispositivos mobile (Android, iOS).
 >
 As seguintes características são inerentes à linguagem DART:
 >
->
+
 >
 1. Tipada: 
->>
-Dart é uma linguagem fortemente tipada. Todas as variáveis e 
+>> Dart é uma linguagem fortemente tipada. Todas as variáveis e 
 constantes precisam ter seu tipo especificado.
 >>
 > 
@@ -50,20 +49,17 @@ de máquina antes de ser executado.
 >
 >
 1. Escalável:
->> 
-Dart é uma linguagem escalável. É possível criar aplicativos Dart de pequeno e 
+>> Dart é uma linguagem escalável. É possível criar aplicativos Dart de pequeno e 
 grande porte, desde pequenos scripts até aplicativos complexos.
 >>
 >
 1. Moderna:
->>
-Dart é uma linguagem moderna, com sintaxe clara, fácil de entender e com recursos avançados, como suporte a streams, asynchronismo, type inference e outros.
+>> Dart é uma linguagem moderna, com sintaxe clara, fácil de entender e com recursos avançados, como suporte a streams, asynchronismo, type inference e outros.
 >>
 >
 >
 1. Multi-plataforma:
->>
-Dart é uma linguagem multi-plataforma. É possível criar aplicativos Dart para 
+>> Dart é uma linguagem multi-plataforma. É possível criar aplicativos Dart para 
 várias plataformas, como web, desktop e dispositivos móveis. 
 >>
 >
