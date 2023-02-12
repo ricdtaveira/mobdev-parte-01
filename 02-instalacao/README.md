@@ -1,4 +1,4 @@
-# 2. SDK do DART #
+# 2. Instalação do SDK do DART #
 
 >
 O Software Development Kit (SDK) é um conjunto de software´s composto por compilador, utilitários e bibliotecas da linguagem.

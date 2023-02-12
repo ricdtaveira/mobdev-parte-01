@@ -16,7 +16,7 @@ Dart é considerada uma linguagem multiplataforma. A partir dela e de seus frame
 dispositivos mobile (Android, iOS). 
 >
 
-# 1.1 Caracteristicas #
+# 1.1 Características #
 >
 As seguintes características são inerentes à linguagem DART:
 >
