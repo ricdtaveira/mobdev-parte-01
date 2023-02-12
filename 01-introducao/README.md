@@ -18,7 +18,7 @@ dispositivos mobile (Android, iOS).
 
 # 1.1 Caracteristicas #
 >
-As seguintes características estam associadas à linguagem DART:
+As seguintes características são inerentes à linguagem DART:
 >
 >
 >
@@ -66,4 +66,5 @@ Dart é uma linguagem moderna, com sintaxe clara, fácil de entender e com recur
 Dart é uma linguagem multi-plataforma. É possível criar aplicativos Dart para 
 várias plataformas, como web, desktop e dispositivos móveis. 
 >>
+>
 >
