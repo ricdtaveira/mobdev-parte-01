@@ -48,7 +48,22 @@ sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode s
 ```
 >>
 >
+2. Atualize sua lista de pacotes com o seguinte comando:
+>>
+```
+sudo apt-get update
+```
+>>> 
+>
 
+>
+3. Instale o Visual Studio Code com o seguinte comando:
+>>
+```
+sudo apt-get install code
+```
+>>
+>
 
 
 
