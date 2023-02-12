@@ -29,26 +29,22 @@ constantes precisam ter seu tipo especificado.
 >>
 > 
 1. Orientada a objetos: 
->> 
-Dart suporta o paradigma de orientação a objetos. Permite a criação de classes, objetos, herança, encapsulamento e polimorfismo.
+>> Dart suporta o paradigma de orientação a objetos. Permite a criação de classes, objetos, herança, encapsulamento e polimorfismo.
 >>
 >
 >
 1. Funcional:
->> 
-Dart também suporta o paradigma funcional. Permite a criação de closures, funções anônimas e métodos de alta ordem.
+>> Dart também suporta o paradigma funcional. Permite a criação de closures, funções anônimas e métodos de alta ordem.
 >>
 >
 >
 1. Baseada em classes:
->> 
-Dart é baseada em classes. Classes são o ponto central da estruturação de um aplicativo Dart.
+>> Dart é baseada em classes. Classes são o ponto central da estruturação de um aplicativo Dart.
 >>
 >
 >
 1. Compilada:
->>
-Dart é uma linguagem compilada. O código Dart é compilado para um código 
+>> Dart é uma linguagem compilada. O código Dart é compilado para um código 
 de máquina antes de ser executado.
 >>
 >
