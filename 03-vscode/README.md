@@ -32,7 +32,7 @@ Descompacte o arquivo .zip baixado
 Clique duas vezes no aplicativo para iniciá-lo.
 >
 
-## 3.2 Instalar o VsCode no Linux ##
+## 3.3 Instalar o VsCode no Linux ##
 
 >
 Seguir os passos definidos abaixo para instalar o VSCode no sistema operacional Linux:
