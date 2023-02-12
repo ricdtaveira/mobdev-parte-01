@@ -18,7 +18,7 @@ Os comentários podem aparecer no código Dart nas seguintes formas:
 ```
 >
 
-## 4.2 Comentários em linhas multiplas ##
+## 4.2 Comentários em multiplas linhas##
 >
 ```
 /* 
