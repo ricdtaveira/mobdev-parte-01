@@ -17,7 +17,10 @@ dispositivos mobile (Android, iOS).
 >
 
 # 1.1 Caracteristicas #
+>
 As seguintes características estam associadas à linguagem DART:
+>
+>
 >
 1. Tipada: 
 >>
@@ -26,16 +29,20 @@ constantes precisam ter seu tipo especificado.
 >>
 > 
 1. Orientada a objetos: 
->> Dart suporta o paradigma de orientação a objetos. Permiti a criação de classes, objetos, herança, encapsulamento e polimorfismo.
+>> 
+Dart suporta o paradigma de orientação a objetos. Permite a criação de classes, objetos, herança, encapsulamento e polimorfismo.
 >>
 >
+>
 1. Funcional:
->> Dart também suporta o paradigma funcional.Permiti a criação de closures, funções anônimas e métodos de alta ordem.
+>> 
+Dart também suporta o paradigma funcional. Permite a criação de closures, funções anônimas e métodos de alta ordem.
 >>
 >
 >
 1. Baseada em classes:
->> Dart é baseada em classes. Classes são o ponto central da estruturação de um aplicativo Dart.
+>> 
+Dart é baseada em classes. Classes são o ponto central da estruturação de um aplicativo Dart.
 >>
 >
 >
@@ -47,8 +54,9 @@ de máquina antes de ser executado.
 >
 >
 1. Escalável:
->> Dart é uma linguagem escalável. É possível criar aplicativos 
-Dart de pequeno e grande porte, desde pequenos scripts até aplicativos complexos.
+>> 
+Dart é uma linguagem escalável. É possível criar aplicativos Dart de pequeno e 
+grande porte, desde pequenos scripts até aplicativos complexos.
 >>
 >
 1. Moderna:
