@@ -46,7 +46,7 @@ Operadores aritméticos são usados em expressões que realizam operações mate
 >
 
 | Operador      | Descrição                            | Exemplo             |  
-| ------------- |:------------------------------------:|:-------------------:|
+| ------------- |--------------------------------------|:-------------------:|
 | +             | Adição/Concatenação                  | 30 + 5 / '30' + '5' |
 | -             | Subtração                            | 40 - 5              |        
 | -expressão    | Negação, inverte o sinal da operação | -(-20)              |  
