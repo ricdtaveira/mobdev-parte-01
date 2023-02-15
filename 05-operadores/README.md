@@ -70,23 +70,59 @@ void main() {
   print(11 % 2); // > 1
 }
 ```
+### 5.1.2.Operadores relacionais e de equalidade ###
+>
+Operadores relacionais e de equalidade realizam comparações entre os valores de diferentes objetos.
+>
+
+| Operador      | Descrição                            | Exemplo             |  
+| ------------- |--------------------------------------|---------------------|
+| ==            | Equalidade                           | 51 == 51            |
+| !=            | Diferença                            | 40 != 5             |        
+| > / >=        | Maior / Maior ou igual               | 10 > 5 e 10 > = 10  |  
+| < / <=        | Menor / Menor ou igual               | 10 < 5 e 10 <= 10   |
+
+Exemplos de expressões relacionais e de equalidade
+```
+void main() {
+  print(42 == 42); // > true
+  print(42 != 42); // > false
+  print(42 > 42); // > false
+  print(42 >= 42); // > true
+  print(42 < 42); // > false
+  print(42 <= 42); // > true
+}
+```
+
+### 5.1.3 Operadores lógicos ###
+>
+
+>
+### 5.1.4 Operadores de manipulação de bits ###
+>
+
+>
+### 5.1.5 Operadores de atribuição ###
+>
+
+>
+
+### 5.1.6 Operadores de incremento e decremento ###
+>
+
+>
+
+### 5.1.7 Operadores de validação de tipos ###
+>
+
+>
+### 5.1.8 Operadores gerais ###
+>
+
+>
+### 5.1.9 
+>
 
 
 
 >
-
-### 5.1.2.Operadores relacionais e de equalidade ###
-
-### 5.1.3 Operadores lógicos ###
-
-### 5.1.4 Operadores de manipulação de bits ###
-
-### 5.1.5 Operadores de atribuição ###
-
-### 5.1.6 Operadores de incremento e decremento ###
-
-### 5.1.7 Operadores de validação de tipos ###
-
-### 5.1.8 Operadores gerais ###
-
-### 5.1.9 
