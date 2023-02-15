@@ -46,7 +46,7 @@ Operadores aritméticos são usados em expressões que realizam operações mate
 >
 
 | Operador      | Descrição                            | Exemplo             |  
-| ------------- |--------------------------------------|:-------------------:|
+| ------------- |--------------------------------------|---------------------|
 | +             | Adição/Concatenação                  | 30 + 5 / '30' + '5' |
 | -             | Subtração                            | 40 - 5              |        
 | -expressão    | Negação, inverte o sinal da operação | -(-20)              |  
@@ -54,6 +54,22 @@ Operadores aritméticos são usados em expressões que realizam operações mate
 | /             | Divisão                              | 20 / 3              |
 | ~/            | Divisão com retorno da parte inteira | 13 ~/ 2             |
 | %             | Resto da Divisão                     | 13 % 2              |
+>
+Exemplos de expressões aritméticas.
+>
+>
+```
+void main() {
+  print(40 + 2); // > 42
+  print('40' + '2'); // > 402
+  print(50 - 8); // > 42
+  print(-(-42)); // > 42
+  print(6 * 7); // > 42
+  print(11 / 2); // > 5.5
+  print(11 ~/ 2); // > 5
+  print(11 % 2); // > 1
+}
+```
 
 
 
