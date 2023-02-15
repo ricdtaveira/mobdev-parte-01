@@ -1,33 +1,23 @@
 # Operadores #
 >
-A arte de programar e construir aplicações se resume ao ato de definir uma série 
-de comandos que serão traduzidos para binários, de forma que uma máquina entenda 
-e eventualmente execute fielmente este passo a passo de instruções. 
+A programação de computadores consiste em usar uma linguagem de programação 
+de alto nivel para definir uma série de comandos que serão traduzidos para 
+uma linguagem binária. A linguagem binária gerada é reconhecida pela máquina 
+e executa passo a passo as instruções. 
 >
 >
-Essa é a primeira lição aprendida ao começar os estudos de algoritmos, e o papel de 
-uma linguagem de programação de alto nível é justamente abstrair esse código binário
-e permitir a comunicação com as máquinas através de instruções lógicas que nós, 
-humanos, entendemos facilmente.
+O entendimeno dessa etapa inicia o aprendizado de algoritmos. O papel de 
+uma linguagem de programação de alto nível é abstrair esse código binário
+e permitir a comunicação entre humanos e as máquinas através de instruções 
+lógicas que nós, humanos, entendemos. 
 >
 >
-Embora as linguagens de programação possam divergir bastante em funcionalidades e
-sintaxe, elas possuem em comum dois pilares que servem de base para a construção 
-dessas instruções: os operadores e as estruturas de controle. 
+Embora haja diferenças de funcionalidades e de sintaxe entre as várias linguagens de 
+programação, elas possuem em comum dois conceitos que são a base para a construção 
+de instruções: os operadores e as estruturas de controle. 
 >
 >
-Dart também segue essa convenção natural na utilização desses pilares, 
-então pode ser que você já esteja familiarizado com todos esses conceitos.
->
-Se esse for o caso e você acredita que já tem experiência o suficiente ou 
-deseja realizar uma leitura mais rápida do livro, sinta-se à vontade para 
-pular para o próximo capítulo.
->
-E eventualmente volte aqui se desejar relembrar algum comportamento ou opção 
-disponível na linguagem. Com isso em mente, neste capítulo veremos:
->
->
-Quais são os operadores disponíveis em Dart. Como utilizar as estruturas de controle.
+Seguiremos apresentando os operadores disponíveis em Dart. 
 >
 
 ## 5.1 Operadores ##
@@ -42,7 +32,7 @@ variáveis `y` e `z`. Subtrai o valor da variavel `z` ao valor da variavel `y`
 usando o operador de subtração `-`.
 >
 >
-Em seguida atribui o valor diferença à variável `x` usando o operador de atribuição =.
+Em seguida atribui o valor da diferença à variável `x` usando o operador de atribuição =.
 >
 >
 A linguagem Dart possui um conjunto de operadores, que serão apresentados em categorias
@@ -50,7 +40,24 @@ de acordo com as expressões em que são usados.
 >
 
 ### 5.1.1 Operadores Aritméticos ###
+>
+Operadores aritméticos são usados em expressões que realizam operações matemáticas.
+>
+>
 
+| Operador      | Descrição                            | Exemplo             |  
+| ------------- |:------------------------------------:|:-------------------:|
+| +             | Adição/Concatenação                  | 30 + 5 / '30' + '5' |
+| -             | Subtração                            | 40 - 5              |        
+| -expressão    | Negação, inverte o sinal da operação | -(-20)              |  
+| *             | Multiplicação                        | 8 * 9               |
+| /             | Divisão                              | 20 / 3              |
+| ~/            | Divisão com retorno da parte inteira | 13 ~/ 2             |
+| %             | Resto da Divisão                     | 13 % 2              |
+
+
+
+>
 
 ### 5.1.2.Operadores relacionais e de equalidade ###
 
