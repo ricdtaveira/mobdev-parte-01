@@ -31,7 +31,7 @@ Na linguagem Dart os tipos são objetos. Possuem atributos e métodos.
 >
 >
 Inicialmente apresentaremos os tipos mais comuns como:
-.
+>
 >>
 **1. Strings e Runes:** são as representações para trabalhar na criação de texto e 
    manipulação de caracteres Unicode.
