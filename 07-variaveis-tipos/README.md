@@ -52,19 +52,19 @@ Além dos tipos mais comuns citados acima, Dart traz tipos específicos que cump
 papéis especiais na linguagem. Como:
 >
 
->> **1. Object:** em Orientação a Objetos, representa a classe pai na hierarquia. É 
+>> **7. Object:** em Orientação a Objetos, representa a classe pai na hierarquia. É 
         a superclasse de todas as outras classes com exceção do `Null`.
 
->> **2. dynamic:** Utilizado para desabilitar a tipagem estática. 
+>> **8. dynamic:** Utilizado para desabilitar a tipagem estática. 
 
->> **3. Future e Stream:** Utilizados na programação assíncrona, veremos mais em 
+>> **9. Future e Stream:** Utilizados na programação assíncrona, veremos mais em 
         seus tópicos. 
 
->> **4. void:** indica um valor que não deve ser utilizado, tipicamente usado em retorno de funções e métodos. Teremos mais sobre ele no capítulo de funções.
+>> **10. void:** indica um valor que não deve ser utilizado, tipicamente usado em retorno de funções e métodos. Teremos mais sobre ele no capítulo de funções.
 
->> **5. Never:** um tipo especial que indica que uma função nunca encerrará normalmente. Teremos mais sobre ele no capítulo de funções.
+>> **11. Never:** um tipo especial que indica que uma função nunca encerrará normalmente. Teremos mais sobre ele no capítulo de funções.
 
->> **6. Function:** É um tipo que representa as funções da linguagem. Veremos mais 
+>> **12. Function:** É um tipo que representa as funções da linguagem. Veremos mais 
          sobre esse tipo no tópico sobre funções.
 
 >
@@ -72,3 +72,22 @@ papéis especiais na linguagem. Como:
 da propriedade `runtimeType` presente em `Object`. Já que todos os tipos são objetos 
 essa propriedade é definida para os demais tipos existentes.
 >
+
+###5.2.1 String e Runes###
+>
+O código abaixo demonstra o usodos tipos `string` e `runes`.
+>
+
+>
+```
+void main() {
+  String mensagem = 'Olá, mundo!';
+  print(mensagem);
+  
+  Runes emoticon = new Runes('\u{1F600}'); // Código Unicode para o emoticon "grinning face with big eyes"
+  String emoticonString = new String.fromCharCodes(emoticon);
+  print(emoticonString);
+}
+```
+
+
