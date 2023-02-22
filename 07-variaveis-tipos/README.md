@@ -56,15 +56,15 @@ papéis especiais na linguagem. Como:
 
 >> **2. dynamic:** utilizado para desabilitar a tipagem estática.
 
->> ** 3. Future e Stream:** Utilizados na programação assíncrona, veremos mais em seus capítulos.
+>> **3. Future e Stream:** Utilizados na programação assíncrona, veremos mais em seus capítulos.
 
->> ** 4. void:** indica um valor que não deve ser utilizado, tipicamente usado em retorno de funções e métodos. Teremos mais sobre ele no capítulo de funções.
+>> **4. void:** indica um valor que não deve ser utilizado, tipicamente usado em retorno de funções e métodos. Teremos mais sobre ele no capítulo de funções.
 
->> ** 5. Never: ** um tipo especial que indica que uma função nunca encerrará normalmente. Teremos mais sobre ele no capítulo de funções.
+>> **5. Never: ** um tipo especial que indica que uma função nunca encerrará normalmente. Teremos mais sobre ele no capítulo de funções.
 
->> ** 6. Function:** É um tipo que representa as funções da linguagem. Veremos mais 
+>> **6. Function:** É um tipo que representa as funções da linguagem. Veremos mais 
          sobre esse tipo no tópico sobre funções.
-         
+
 >
 É possível identificar em tempo de execução qual é o tipo de uma determinada variável através 
 da propriedade `runtimeType` presente em `Object`. Já que todos os tipos são objetos 
