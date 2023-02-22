@@ -73,9 +73,9 @@ da propriedade `runtimeType` presente em `Object`. Já que todos os tipos são o
 essa propriedade é definida para os demais tipos existentes.
 >
 
-###5.2.1 String e Runes###
+### 5.2.1 String e Runes ###
 >
-O código abaixo demonstra o usodos tipos `string` e `runes`.
+O código abaixo demonstra o uso dos tipos `String` e `Runes`.
 >
 
 >
