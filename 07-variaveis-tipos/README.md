@@ -33,22 +33,22 @@ Na linguagem Dart os tipos são objetos. Possuem atributos e métodos.
 Inicialmente apresentaremos os tipos mais comuns como:
 .
 >
-1. Strings e Runes: são as representações para trabalhar na criação de texto e 
+**1. Strings e Runes:** são as representações para trabalhar na criação de texto e 
    manipulação de caracteres Unicode.
 >
 >
-2. num, int e double: são usados para representação de valores numéricos.
+**2. num, int e double:** são usados para representação de valores numéricos.
 >
 >
-3. bool: valor lógico booleano.
+**3. bool:** valor lógico booleano.
 >
 >
-4. Iterable, List, Set e Map: representações das estruturas de dados da linguagem, 
+**4. Iterable, List, Set e Map:** representações das estruturas de dados da linguagem, 
    veremos mais no topico sobre generics.
 >
 >
-5. Symbol: modificadores que são imunes ao processo de minificação.
+**5. Symbol:** modificadores que são imunes ao processo de minificação.
 >
 >
-6. Null: representação de valores nulos.
+**6. Null:** representação de valores nulos.
 >
