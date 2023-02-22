@@ -96,8 +96,24 @@ void main() {
 
 ### 5.1.3 Operadores lógicos ###
 >
-
+Operadores Lógicos são usados para a construção de expressões booleanas.
 >
+
+| Operador      | Descrição                            | Exemplo             |  
+| ------------- |--------------------------------------|---------------------|
+| &&            | AND                                  | true && true        |
+| ||            | OR                                   | true || false       |        
+| !expressão    | Inversão valor lógico                | !false              | 
+
+Exemplos de expressões com operadores lógicos.
+```
+void main() {
+  print(10 == 10 && 22 <= 10); // > false
+  print((10 == 10 && 22 <= 10) || 42 != 42); // > false
+  print(!(42 == 42 && 42 <= 10) || 42 != 10); // > true
+}
+
+```
 ### 5.1.4 Operadores de manipulação de bits ###
 >
 
