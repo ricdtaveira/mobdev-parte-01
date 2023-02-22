@@ -41,10 +41,28 @@ Inicialmente apresentaremos os tipos mais comuns como:
 >> **3. bool:** É usado para representar um valor lógico booleano.
 
 >> **4. Iterable, List, Set e Map:** São representações de estruturas de dados da 
-     linguagem. Seraõ abordados no topico sobre generics.
+     linguagem. Serão abordados no topico sobre generics.
 
 >> **5. Symbol:** Usado em modificadores que são imunes ao processo de minificação.
 
 >> **6. Null:** Usado para a representação de valores nulos.
 
+>
+Além dos tipos mais comuns citados acima, Dart traz tipos específicos que cumprem 
+papéis especiais na linguagem. Como:
+>
 
+>> **1. Object:** em Orientação a Objetos, representa a classe pai na hierarquia. É a superclasse de todas as outras classes com exceção do Null.
+
+>> **2. dynamic:** utilizado para desabilitar a tipagem estática.
+
+>> ** 3. Future e Stream:** Utilizados na programação assíncrona, veremos mais em seus capítulos.
+>> ** 4. void:** indica um valor que não deve ser utilizado, tipicamente usado em retorno de funções e métodos. Teremos mais sobre ele no capítulo de funções.
+>> ** 5. Never: ** um tipo especial que indica que uma função nunca encerrará normalmente. Teremos mais sobre ele no capítulo de funções.
+>> ** 6. Function:** É um tipo que representa as funções da linguagem. Veremos mais 
+         sobre esse tipo no tópico sobre funções.
+>
+É possível identificar em tempo de execução qual é o tipo de uma determinada variável através 
+da propriedade `runtimeType` presente em `Object`. Já que todos os tipos são objetos 
+essa propriedade é definida para os demais tipos existentes.
+>
