@@ -43,7 +43,7 @@ determinada ação. Por consequencia, será mais reutilizável em todos os lugar
 >
 A figura abaixo apresenta a estrtura sintática de uma função.
 >
-**Figura 13.1 extraído do O Guia de Dart
+**Figura 13.1 extraído do livro O Guia de Dart**
 >
 ![Estrutura de uma função.](/98-figuras/13-funcoes/estrutura_funcao.png "Estrura de uma função.")
 >
