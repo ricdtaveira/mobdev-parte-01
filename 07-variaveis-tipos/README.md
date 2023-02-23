@@ -180,10 +180,10 @@ void main() {
 o tipo `Symbol` é usado para representar uma identificação única de um nome. 
 >
 >
-Um Symbol é imutável e pode ser usado como chave em um Map.
+Um `Symbol` é imutável e pode ser usado como chave em um `Map`.
 >
 >
-
+O Código abaixo exemplifica o uso de `Symbol`.
 >
 ```
 void main() {
@@ -221,14 +221,14 @@ Em seguida, utilizamos um `Symbol` como chave em um `Map`, criando um dicionári
 que armazena informações de uma `pessoa`.
 >
 >
- O operador `#` é usado para criar os Symbol diretamente no `Map`.
+ O operador `#` é usado para criar os `Symbol` diretamente no `Map`.
 >
 >
 Finalmente, os valores do `Map` são acessados utilizando os `Symbol` como chaves. 
 >
 >
 Não é possível utilizar a sintaxe convencional de chaves `({})` para acessar os 
-valores, é necessário utilizar o operador [].
+valores, é necessário utilizar o operador `[]`.
 >
 
 
