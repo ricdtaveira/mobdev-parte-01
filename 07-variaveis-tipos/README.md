@@ -141,7 +141,10 @@ Os tipos `Iterable`, `List`, `Set` e `Map` são utilizados para lidar com coleç
 de objetos.
 >
 >
-O Código Dart a seguir exemplica ouso desses tipos. Adiante esse tipos serão tratados
+O Código Dart a seguir exemplica ouso desses tipos. 
+>
+>
+Adiante esse tipos serão tratados
 em tópicos especificos.
 >
 .
@@ -172,5 +175,62 @@ void main() {
 
 ```
 >
-### 5.2.5 Os Tipos num, int e double ###
+### 5.2.5 O Tipo Symbol ###
+>
+o tipo `Symbol` é usado para representar uma identificação única de um nome. 
+>
+>
+Um Symbol é imutável e pode ser usado como chave em um Map.
+>
+>
+
+>
+```
+void main() {
+  // Criando um Symbol
+  Symbol s1 = Symbol('nome');
+  
+  // Comparando dois Symbols
+  Symbol s2 = #nome;
+  print(s1 == s2); // Imprime "true"
+  
+  // Utilizando um Symbol como chave em um Map
+  Map<Symbol, dynamic> pessoa = {
+    #nome: 'Alice',
+    #idade: 30,
+    #email: 'alice@example.com'
+  };
+  
+  // Acessando os valores do Map utilizando Symbols
+  print(pessoa[#nome]); // Imprime "Alice"
+  print(pessoa[#idade]); // Imprime "30"
+  print(pessoa[#email]); // Imprime "alice@example.com"
+}
+```
+>
+No exemplo acima, criamos um `Symbol` utilizando o construtor `Symbol('nome')`. 
+>
+>
+Um Symbol é criando também utilizando a sintaxe `#nome`.
+>
+>
+O operador `==` é usado para comparar dois `Symbol` e verificar se são iguais.
+>
+
+Em seguida, utilizamos um `Symbol` como chave em um `Map`, criando um dicionário 
+que armazena informações de uma `pessoa`.
+>
+>
+ O operador `#` é usado para criar os Symbol diretamente no `Map`.
+>
+>
+Finalmente, os valores do `Map` são acessados utilizando os `Symbol` como chaves. 
+>
+>
+Não é possível utilizar a sintaxe convencional de chaves `({})` para acessar os 
+valores, é necessário utilizar o operador [].
+>
+
+
+### 5.2.6 O Tipo Null ###
 
