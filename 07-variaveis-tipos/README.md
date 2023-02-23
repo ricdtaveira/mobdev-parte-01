@@ -73,11 +73,23 @@ da propriedade `runtimeType` presente em `Object`. Já que todos os tipos são o
 essa propriedade é definida para os demais tipos existentes.
 >
 
-### 5.2.1 String e Runes ###
+### 5.2.1 Os tipos String e Runes ###
 >
 O código abaixo demonstra o uso dos tipos `String` e `Runes`.
 >
-
+>
+Nesse exemplo, a variável mensagem é uma variável do tipo String, que armazena a 
+mensagem "Olá, mundo!". 
+>
+Essa mensagem é exibida na tela utilizando o comando print().
+>
+>
+A seguir, é criada uma variável emoticon do tipo Runes, que armazena o 
+código Unicode para o emoticon "grinning face with big eyes" (😀). 
+>
+> Em seguida, a variável emoticon é convertida em uma string utilizando o método 
+fromCharCodes(), e a string resultante é exibida na tela também utilizando o 
+comando print().
 >
 ```
 void main() {
@@ -89,5 +101,12 @@ void main() {
   print(emoticonString);
 }
 ```
+### 5.2.2 Os Tipos num, int e double ###
 
+
+### 5.2.3 Os Tipos num, int e double ###
+
+### 5.2.4 O Tipos bool ###
+
+### 5.2.5 Os Tipos num, int e double ###
 
