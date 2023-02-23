@@ -301,16 +301,16 @@ void main() {
 O Código acima realizou as seguintes operações:
 >
 >
-1. Duas variáveis nullable (nullableInt e nullableDouble) foram criadas. 
+1. Duas variáveis nullable (`nullableInt` e `nullableDouble`) foram criadas. 
 2. A variável `nullableDouble` foi definida como nula logo na declaração.
-3. A função print() foi usada para imprimir o valor das variáveis no console. 
-   Como elas são nulas, o valor impresso será "null".
-4. O operador == foiusado para verificar se as variáveis são nulas. 
+3. A função `print()` foi usada para imprimir o valor das variáveis no console. 
+   Como elas são nulas, o valor impresso será `"null"`.
+4. O operador `==` foi usado para verificar se as variáveis são nulas. 
 5. Se forem nulas, será impresso uma mensagem indicando isso.
 6. O operador `??` é usado para definir um valor padrão para a variável nullable 
    nullableNumber. 
-7. O operador ?? retorna o valor da variável à esquerda se ele não for nulo, 
+7. O operador `??` retorna o valor da variável à esquerda se ele não for nulo, 
    e o valor à direita se ele for nulo. 
-8. Nesse caso, a variável nullableNumber é nula, então a variável 
-   nonNullableNumber recebe o valor 0.
+8. Nesse caso, a variável `nullableNumber` é nula, então a variável 
+   `nonNullableNumber` recebe o valor 0.
 >
