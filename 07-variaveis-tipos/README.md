@@ -134,18 +134,46 @@ void main() {
 ```
 
 ### 5.2.3 Os Tipo bool ###
+>
+O tipo `bool` é usado para representar valores booleanos. 
+>
+> 
+Valores booleanos podem ser verdadeiro (`true`) ou falso (`false`). 
+>
+>
+O código a seguir, utiliza o tipo `bool`. 
+>
+```
+void main() {
+  bool isRaining = true;
+  bool isSunny = false;
+  
+  print(isRaining); // Imprime "true"
+  print(isSunny); // Imprime "false"
+  
+  // Operações lógicas
+  bool isCold = true;
+  bool isWinter = true;
+  
+  bool shouldWearCoat = isCold && isWinter; // Operador "&&" (AND)
+  bool canGoSwimming = !isCold || isSunny; // Operador "||" (OR) e "!" (NOT)
+  
+  print(shouldWearCoat); // Imprime "true"
+  print(canGoSwimming); // Imprime "true"
+}
 
+
+```
 ### 5.2.4 Os Tipos iterable, list, set e map ###
 >
 Os tipos `Iterable`, `List`, `Set` e `Map` são utilizados para lidar com coleções 
 de objetos.
 >
 >
-O Código Dart a seguir exemplica ouso desses tipos. 
+O Código Dart a seguir exemplica o uso desses tipos. 
 >
 >
-Adiante esse tipos serão tratados
-em tópicos especificos.
+Adiante esse tipos serão tratados em tópicos especificos.
 >
 .
 ```
@@ -233,4 +261,56 @@ valores, é necessário utilizar o operador `[]`.
 
 
 ### 5.2.6 O Tipo Null ###
+>
+O tipo `null` é usado para representar a ausência de um valor. 
+>
+>
+Isso é útil quando você precisa indicar que uma variável não possui um valor 
+válido em um determinado momento.
+>
+>
+O exemplo de código que adiante utiliza o tipo `null`. 
+>
 
+>
+```
+void main() {
+  int? nullableInt; // Declaração de variável do tipo nullable
+  double? nullableDouble = null; // Declaração de variável nullable com valor nulo
+  
+  print(nullableInt); // Imprime "null"
+  print(nullableDouble); // Imprime "null"
+  
+  // Verificando se a variável é nula
+  if (nullableInt == null) {
+    print("nullableInt é nulo");
+  }
+  
+  if (nullableDouble == null) {
+    print("nullableDouble é nulo");
+  }
+  
+  // Utilizando o operador ?? para definir um valor padrão para uma variável nullable
+  int? nullableNumber = null;
+  int nonNullableNumber = nullableNumber ?? 0; // nonNullableNumber recebe 0 se nullableNumber for nulo
+  
+  print(nonNullableNumber); // Imprime "0"
+}
+```
+>
+O Código acima realizou as seguintes operações:
+>
+>
+1. Duas variáveis nullable (nullableInt e nullableDouble) foram criadas. 
+2. A variável `nullableDouble` foi definida como nula logo na declaração.
+3. A função print() foi usada para imprimir o valor das variáveis no console. 
+   Como elas são nulas, o valor impresso será "null".
+4. O operador == foiusado para verificar se as variáveis são nulas. 
+5. Se forem nulas, será impresso uma mensagem indicando isso.
+6. O operador `??` é usado para definir um valor padrão para a variável nullable 
+   nullableNumber. 
+7. O operador ?? retorna o valor da variável à esquerda se ele não for nulo, 
+   e o valor à direita se ele for nulo. 
+8. Nesse caso, a variável nullableNumber é nula, então a variável 
+   nonNullableNumber recebe o valor 0.
+>
