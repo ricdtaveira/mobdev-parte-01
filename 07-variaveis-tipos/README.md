@@ -87,9 +87,10 @@ Essa mensagem é exibida na tela utilizando o comando print().
 A seguir, é criada uma variável emoticon do tipo Runes, que armazena o 
 código Unicode para o emoticon "grinning face with big eyes" (😀). 
 >
-> Em seguida, a variável emoticon é convertida em uma string utilizando o método 
-fromCharCodes(), e a string resultante é exibida na tela também utilizando o 
-comando print().
+> 
+Em seguida, a variável emoticon é convertida em uma `string` utilizando o método 
+`fromCharCodes()`, e a string resultante é exibida na tela também utilizando o 
+comando `print()`.
 >
 ```
 void main() {
@@ -102,7 +103,35 @@ void main() {
 }
 ```
 ### 5.2.2 Os Tipos num, int e double ###
+>
+O tipo `num` é a classe base para os tipos numéricos int e double. 
+>
+>
+O tipo `int` é utilizado para representar números inteiros, enquanto o tipo `double`
+é utilizado para representar números de ponto flutuante
+>
 
+>
+Segue abaixo um exemplo de código que utiliza os tipos `num`, `int` e 
+`double` em Dart:
+
+>
+```
+void main() {
+  int idade = 30;
+  double altura = 1.75;
+  
+  num resultado = idade * altura;
+  print('O resultado é: $resultado');
+  
+  int resultadoInteiro = idade ~/ altura;
+  print('O resultado inteiro é: $resultadoInteiro');
+  
+  double resultadoDouble = idade / altura;
+  print('O resultado em ponto flutuante é: $resultadoDouble');
+}
+
+```
 
 ### 5.2.3 Os Tipos num, int e double ###
 
