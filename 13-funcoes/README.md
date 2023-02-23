@@ -39,10 +39,11 @@ Quanto menor for uma função, mais especializada será em realizar apenas uma
 determinada ação. Por consequencia, será mais reutilizável em todos os lugares.
 >
 
-### 13.1.1 Estrutura de uma Função###
+### 13.1.1 Estrutura de uma Função ###
 >
 A figura abaixo apresenta a estrtura sintática de uma função.
 >
+**Figura 13.1 extraído do O Guia de Dart
 >
 ![Estrutura de uma função.](/98-figuras/13-funcoes/estrutura_funcao.png "Estrura de uma função.")
 >
