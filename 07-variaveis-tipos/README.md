@@ -133,9 +133,44 @@ void main() {
 
 ```
 
-### 5.2.3 Os Tipos num, int e double ###
+### 5.2.3 Os Tipo bool ###
 
-### 5.2.4 O Tipos bool ###
+### 5.2.4 Os Tipos iterable, list, set e map ###
+>
+Os tipos `Iterable`, `List`, `Set` e `Map` são utilizados para lidar com coleções 
+de objetos.
+>
+>
+O Código Dart a seguir exemplica ouso desses tipos. Adiante esse tipos serão tratados
+em tópicos especificos.
+>
+.
+```
+void main() {
+  // Exemplo de uso do tipo List
+  List<int> numeros = [1, 2, 3, 4, 5];
+  print('Números: $numeros');
+  
+  // Exemplo de uso do tipo Set
+  Set<String> nomes = {'Alice', 'Bob', 'Carlos', 'Alice'};
+  print('Nomes: $nomes');
+  
+  // Exemplo de uso do tipo Map
+  Map<String, String> telefones = {
+    'Alice': '+55 11 99999-1111',
+    'Bob': '+55 21 99999-2222',
+    'Carlos': '+55 31 99999-3333'
+  };
+  print('Telefones: $telefones');
+  
+  // Exemplo de iteração sobre um Iterable
+  Iterable<String> frutas = ['maçã', 'banana', 'laranja'];
+  for (String fruta in frutas) {
+    print(fruta);
+  }
+}
 
+```
+>
 ### 5.2.5 Os Tipos num, int e double ###
 
