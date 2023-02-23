@@ -21,11 +21,28 @@ Nesse tópico abordaremos os seguintes conceitos:
 
 ## 13.1 Definição de uma Função ##
 >
-
+Funções são blocos de código que podem ser executados `n` vezes a partir de outros
+blocos de código. 
+>
+Por exemplo, você tem um programa e quer que, ao clicar no botão X da sua página 
+inicial, ele seja fechado. Para isso, você chamaria uma função exit(). 
+>
+Só que agora você adicionou mais três páginas que também devem fechar o programa, 
+então bastaria fazer a chamada em todas elas para a mesma função exit().
+>
+>
+O uso de funções permite a modularização de uma aplicação, garantindo um grande 
+reaproveitamento de código ao dividir as responsabilidades. 
+>
+>
+Quanto menor for uma função, mais especializada será em realizar apenas uma 
+determinada ação. Por consequencia, será mais reutilizável em todos os lugares.
 >
 
-## 13.2 ##
-
+### 13.1.1 Estrutura de uma Função###
 >
-
+A figura abaixo apresenta a estrtura sintática de uma função.
+>
+>
+![Estrutura de uma função.](/98-figuras/13-funcoes/estrutura_funcao.png "Estrura de uma função.")
 >
