@@ -3,6 +3,10 @@
 Função é o conceito mais utilizado em liguagens de programação. 
 >
 >
+Uma função funciona como uma máquina que recebe insumos de entrada (dados), processa 
+esses insumos(executa passo a passo um algoritmo) e produz uma saída (dados processados).
+>
+>
 São as funções que realmente que realizam a computação.  
 >
 >
@@ -40,7 +44,7 @@ Quanto menor for uma função, mais especializada será em realizar apenas uma
 determinada ação. Por consequencia, será mais reutilizável em todos os lugares.
 >
 
-### 13.1.1 Estrutura de uma Função ###
+### 13.1.1 Anatomia de uma Função Dart ###
 >
 A figura abaixo apresenta a estrutura sintática de uma função.
 >
