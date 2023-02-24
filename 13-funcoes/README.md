@@ -1,13 +1,13 @@
 # 13. Funções #
 >
-Função é o conceito mais utilizado em liguagens de programação. 
+Função é o conceito mais utilizado em linguagens de programação. 
 >
 >
 Uma função funciona como uma máquina que recebe insumos de entrada (dados), processa 
 esses insumos(executa passo a passo um algoritmo) e produz uma saída (dados processados).
 >
 >
-São as funções que realmente que realizam a computação.  
+São as funções que realmente realizam a computação.  
 >
 >
  O termo função é usado livremente para definir funções e métodos de todas as 
@@ -65,4 +65,18 @@ Na definição de uma função temos:
 >> 4. O corpo da função composta por expressões que realizam o processamento da função;
 >> 5. O retorno da função é a sua saída. A palavra chave `return` define a saída da
       função.
+>
+
+## 13.2 Parametros de uma Função ##
+>
+Uma função geralmente possui uma lista de parâmetros.
+>
+Há situações onde a lista de parâmetros é vazia. Esse caso acontece 
+em funções que executam métodos assessores onde parametros são omitidos. 
+>
+>
+Os parâmetros são posicionais ou nomeados.
+>
+>
+
 >
