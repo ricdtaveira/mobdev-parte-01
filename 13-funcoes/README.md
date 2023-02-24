@@ -27,8 +27,9 @@ blocos de código.
 Por exemplo, você tem um programa e quer que, ao clicar no botão X da sua página 
 inicial, ele seja fechado. Para isso, você chamaria uma função exit(). 
 >
-Só que agora você adicionou mais três páginas que também devem fechar o programa, 
-então bastaria fazer a chamada em todas elas para a mesma função exit().
+A partir do momento em que é necesssário mais locais no programa onde essa funcionalidade é 
+chamada basta chamar a função exit(). Teremos então um código para a função. E vários locais onde 
+essa funcionalidade é chamada para executar.
 >
 >
 O uso de funções permite a modularização de uma aplicação, garantindo um grande 
@@ -41,9 +42,23 @@ determinada ação. Por consequencia, será mais reutilizável em todos os lugar
 
 ### 13.1.1 Estrutura de uma Função ###
 >
-A figura abaixo apresenta a estrtura sintática de uma função.
+A figura abaixo apresenta a estrutura sintática de uma função.
 >
 **Figura 13.1 extraído do livro O Guia de Dart**
 >
 ![Estrutura de uma função.](/98-figuras/13-funcoes/estrutura_funcao.png "Estrura de uma função.")
+>
+>
+Na definição de uma função temos:
+>
+>> 1. O tipo que a função retorna. Toda função executa uma funcionalidade que 
+      pode retornar um valor ou não. Quando retorna um valor, o tipo declarado da
+      função deve ser compatível com esse valor (int, double, String, ...). Quando 
+      não retorna um valor, o tipo associado a função deverá ser o `void`. 
+>> 2. O nome da função que deverá ser adequado à funcionalidade executada pela função;
+>> 3. Os parametros de entrada da função são envolvidos por parenteses. Uma função pode ter parametros 
+      ou não. As funções que não possuem parametros são chamadas de proedimentos. 
+>> 4. O corpo da função composta por expressões que realizam o processamento da função;
+>> 5. O retorno da função é a sua saída. A palavra chave `return` define a saída da
+      função.
 >
