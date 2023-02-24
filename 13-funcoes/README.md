@@ -53,7 +53,7 @@ Na definição de uma função temos:
 >
 >> 1. O tipo que a função retorna. Toda função executa uma funcionalidade que 
       pode retornar um valor ou não. Quando retorna um valor, o tipo declarado da
-      função deve ser compatível com esse valor (int, double, String, ...). Quando 
+      função deve ser compatível com esse valor (`int`, `double`, `String`, ...). Quando 
       não retorna um valor, o tipo associado a função deverá ser o `void`. 
 >> 2. O nome da função que deverá ser adequado à funcionalidade executada pela função;
 >> 3. Os parametros de entrada da função são envolvidos por parenteses. Uma função pode ter parametros 
