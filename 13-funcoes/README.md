@@ -43,7 +43,11 @@ reaproveitamento de código ao dividir as responsabilidades.
 Quanto menor for uma função, mais especializada será em realizar apenas uma 
 determinada ação. Por consequencia, será mais reutilizável em todos os lugares.
 >
-
+>
+Em geral, tudo que é aplicado a funções também se aplica a métodos. Método é um 
+tipo especial de função definida em uma classe. Classes serão explicadas no tópico sobre 
+POO.
+>
 ### 13.1.1 Anatomia de uma Função Dart ###
 >
 A figura abaixo apresenta a estrutura sintática de uma função.
