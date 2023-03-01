@@ -101,9 +101,9 @@ Operadores Lógicos são usados para a construção de expressões booleanas.
 
 | Operador      | Descrição                            | Exemplo             |  
 | ------------- |--------------------------------------|---------------------|
-| &&            | AND                                  | true && true        |
-| ||            | OR                                   | true || false       |        
-| !expressão    | Inversão valor lógico                | !false              | 
+| `&&`          | AND                                  | true && true        |
+| `||`          | OR                                   | true || false       |        
+| `!expressão`  | Inversão valor lógico                | !false              | 
 
 Exemplos de expressões com operadores lógicos.
 ```
