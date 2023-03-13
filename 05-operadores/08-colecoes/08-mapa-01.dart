@@ -10,7 +10,7 @@ void main() {
   // Imprimindo os elementos da lista
   print(minhaLista);
 
-  // Acessando elementos da lista pelo índice
+  // Acessando elementos da lista
   print(minhaLista[0]); // saída: maçã
   print(minhaLista[1]); // saída: banana
   print(minhaLista[2]); // saída: laranja
