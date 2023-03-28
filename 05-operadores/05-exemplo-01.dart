@@ -1,5 +1,7 @@
 // 05-exemplo-01.dart
 // Operadores Aritméticos
+// Teste de atualização do repositório remoto
+
 void main() {
   int a = 10;
   print('a = $a');
@@ -24,6 +26,7 @@ void main() {
 
   int incremento = a++;
   print('pós incremento a++ = $incremento');
+  
 
   int decremento = a--;
   print('pós decremento a-- = $decremento');
