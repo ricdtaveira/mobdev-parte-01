@@ -1,6 +1,7 @@
 // 05-exemplo-01.dart
 // Operadores Aritméticos
 // Teste de atualização do repositório remoto
+//teste2
 
 void main() {
   int a = 10;
