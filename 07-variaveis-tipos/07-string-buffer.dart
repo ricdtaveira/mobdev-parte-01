@@ -7,6 +7,14 @@ void main() {
   buffer.write('Olá');
   buffer.write(' ');
   buffer.write('Mundo!');
+  
 
   print(buffer.toString()); // saida: Olá Mundo!
+
+  String mensagem;
+  mensagem = "Teste !";
+  print(mensagem);
+  mensagem = "Novo Teste";
+  print(mensagem);
+  
 }

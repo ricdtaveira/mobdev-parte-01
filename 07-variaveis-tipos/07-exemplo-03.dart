@@ -18,7 +18,13 @@ void main() {
   dynamic variavelDinamica = 'Sou uma string';
   variavelDinamica = 100;
 
+  // Declaracao de Constante
+
+  const pi = 3.14;
+  
+
   // Impressão das variáveis na tela
+  print('pi: $pi');
   print('Idade: $idade');
   print('Altura: $altura');
   print('Peso: $peso');
