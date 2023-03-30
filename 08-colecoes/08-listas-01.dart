@@ -3,8 +3,10 @@ void main() {
   List<String> minhaLista = [];
 
   // Adicionando elementos à lista
+
   minhaLista.add("maçã");
   minhaLista.add("banana");
+  minhaLista.add("laranja");
   minhaLista.add("laranja");
 
   // Imprimindo os elementos da lista

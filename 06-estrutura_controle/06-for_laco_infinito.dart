@@ -2,7 +2,12 @@
 // Fluxo de controle for
 
 void main() {
-  for (int i = 1; i <= 5; i++) {
+  int i = 0;
+  for (;;) {
+    i++;
     print(i);
+    if (i == 10) {
+      break;
+    }
   }
 }

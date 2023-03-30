@@ -2,8 +2,8 @@
 // Fluxo de controle switch-case
 
 void main() {
-  String diaDaSemana = 'segunda-feira';
-  
+  String diaDaSemana = 'monday';
+
   switch (diaDaSemana) {
     case 'segunda-feira':
       print('Dia de começar a semana');
@@ -22,7 +22,7 @@ void main() {
       break;
     case 'sábado':
     case 'domingo':
-      print('Fim de semana');
+      print('Dia da Feijoada');
       break;
     default:
       print('Dia inválido');
