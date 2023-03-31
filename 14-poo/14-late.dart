@@ -2,10 +2,16 @@ class Pessoa {
   late String nome;
   late int idade;
 
-  Pessoa() {
-    // Inicializando as variáveis após a criação do objeto
-    nome = "João";
-    idade = 30;
+  // Metodo Construtor
+  //  Pessoa() {
+  // Inicializando as variáveis após a criação do objeto
+  // Nome donome = "João";
+  //    idade = 30;
+  //  }
+
+  Pessoa(String nome, int idade) {
+    this.nome = nome;
+    this.idade = idade;
   }
 
   void imprimirDados() {
@@ -14,6 +20,8 @@ class Pessoa {
 }
 
 void main() {
-  Pessoa pessoa = Pessoa();
-  pessoa.imprimirDados();
+  Pessoa pessoa1 = Pessoa("Jose", 30);
+  Pessoa pessoa2 = Pessoa("Maria", 24);
+  pessoa1.imprimirDados();
+  pessoa2.imprimirDados();
 }

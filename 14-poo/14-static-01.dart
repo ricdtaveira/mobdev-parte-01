@@ -13,6 +13,7 @@ class Exemplo {
 void main() {
   // ignore: unused_local_variable
   Exemplo objeto1 = Exemplo();
+  // ignore: unused_local_variable
   Exemplo objeto2 = Exemplo();
   Exemplo.mostrarContador(); // Imprime "O contador é 2"
 }
