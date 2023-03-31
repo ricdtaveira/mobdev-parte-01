@@ -1,8 +1,8 @@
 // Classe é um projeto de objeto.
-// Para fazer referência ao objeto atual dentro de uma classe, você usa a 
-// palavra-chave this. 
+// Para fazer referência ao objeto atual dentro de uma classe, você usa a
+// palavra-chave this.
 // A palavra-chave this significa a instância atual da classe.
-// Use a palavra-chave this para fazer encadeamento de métodos 
+// Use a palavra-chave this para fazer encadeamento de métodos
 // tornando o código mais conciso.
 
 class Point {
