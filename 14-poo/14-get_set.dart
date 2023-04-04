@@ -6,9 +6,11 @@ class Pessoa {
   late int _idade;
 
   // Método Acessor.Retorna o valor do atributo _nome.
+  // Propriedade que acessa uma fncionalidade como um atributo
   String get nome => _nome;
 
   // Método Modificador. Altera o valor atributo -nome.
+  // Propriedade que acessa uma fncionalidade como um atributo
   set nome(String nome) => _nome = nome;
 
   int get idade => _idade;
