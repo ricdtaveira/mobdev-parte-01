@@ -5,7 +5,7 @@
 import 'dart:io';
 
 void main() {
-  final file = File('./meu_arquivo.txt');
+  final file = File('./15-excecoes/meu_arquivo.txt');
   final conteudo = 'Conteúdo a ser gravado no arquivo';
 
   try {
