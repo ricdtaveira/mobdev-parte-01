@@ -3,16 +3,16 @@
 // e um SendPort para enviar o resultado da operação assíncrona de volta
 // para o isolate principal.
 //
-// Enquanto o isolate criado está executando a operação assíncrona, a 
-// thread principal continua executando outras tarefas, como aguardar por 
-// um período de tempo usando a função Future.delayed(). 
+// Enquanto o isolate criado está executando a operação assíncrona, a
+// thread principal continua executando outras tarefas, como aguardar por
+// um período de tempo usando a função Future.delayed().
 
-// Quando a operação assíncrona é concluída, o resultado é enviado de volta 
+// Quando a operação assíncrona é concluída, o resultado é enviado de volta
 // para o isolate principal através do ReceivePort criado anteriormente.
 
-// Esse exemplo demonstra como os isolates podem ser usados em conjunto 
-// com operações assíncronas para criar um programa concorrente e não 
-// bloqueante, onde diferentes tarefas são executadas simultaneamente sem 
+// Esse exemplo demonstra como os isolates podem ser usados em conjunto
+// com operações assíncronas para criar um programa concorrente e não
+// bloqueante, onde diferentes tarefas são executadas simultaneamente sem
 // afetar o desempenho do programa.
 
 import 'dart:io';
@@ -36,6 +36,6 @@ void main() async {
 
 void doAsyncOperation(SendPort sendPort) async {
   // Executando uma operação assíncrona em um isolate separado
-  final result = await File('arquivo.txt').readAsString();
+  final result = await File('./16-programacao-assincrona/arquivo.txt').readAsString();
   sendPort.send(result);
 }
