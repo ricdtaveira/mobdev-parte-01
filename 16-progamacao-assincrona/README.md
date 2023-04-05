@@ -15,7 +15,7 @@ Essa condição leva a um bloqueio do processamento. Em aplicações que manipul
 interfaces há um congelamento na tela. Um procesamento posterior só acontece 
 depois que uma resposta chega e há continuidade no processamento. 
 >
-Uma forma de neutralizar esse problema é adotar um mecanismo de assicronismo. 
+Uma forma de neutralizar esse problema é adotar um mecanismo de assincronismo. 
 >
 
 ## 16.2 Threads ##
