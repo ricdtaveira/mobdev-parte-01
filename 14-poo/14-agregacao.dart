@@ -22,10 +22,8 @@ class EquipeProjeto {
   late String _nomeProjeto;
   late List<Funcionario> _funcionarios;
 
-  EquipeProjeto (String nomeprojeto, List<Funcionario> funcionarios) {
+  EquipeProjeto(String nomeprojeto, List<Funcionario> funcionarios) {
     _nomeProjeto = nomeprojeto;
     _funcionarios = funcionarios;
-
   }
-
 }

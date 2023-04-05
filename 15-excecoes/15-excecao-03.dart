@@ -20,11 +20,12 @@
 import 'dart:convert';
 import 'dart:io';
 
+
 Future<void> main() async {
   final url = Uri.parse('http://www.ifce.edu.br');
 
   try {
-    var http;
+    var http = new Http(url);
     final response = await http.get(url);
 
     if (response.statusCode == 200) {
