@@ -225,7 +225,7 @@ O desenvolvedor pode então enviar o e-mail usando o método **send()** da class
 ### 17.5.1 Introdução ###
 >
 Bluetooth é uma tecnologia usada em dispositivos eletrônicos que viabilizam a comunicação 
-sem fio entre com outros dispositivos compatíveis. 
+sem fio com outros dispositivos compatíveis. 
 >
 >
 Existem muitos tipos diferentes de dispositivos Bluetooth, como:
