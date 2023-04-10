@@ -194,7 +194,7 @@ Acima está sendo adicionado a biblioteca **'gmail'** na versão **'0.2.2'**.
 ```
 pub get
 ```
-5. Importar a biblioteca no código fontes usando a diretiva **'import'**. Por exemplo:
+5. Importar a biblioteca no código fonte usando a diretiva **'import'**. Por exemplo:
 ``` 
 import 'package:gmail/gmail.dart';
 ```
