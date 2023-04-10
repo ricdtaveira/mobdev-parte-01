@@ -224,12 +224,8 @@ O desenvolvedor pode então enviar o e-mail usando o método **send()** da class
 
 ### 17.5.1 Introdução ###
 >
-Dispositivos Bluetooth são dispositivos eletrônicos que usam a tecnologia 
-Bluetooth para se comunicar sem fio com outros dispositivos compatíveis. 
->
->
-O Bluetooth é uma tecnologia de comunicação sem fio de curto alcance que 
-permite que dispositivos se conectem e se comuniquem entre si.
+Bluetooth é uma tecnologia usada em dispositivos eletrônicos que viabilizam a comunicação 
+sem fio entre com outros dispositivos compatíveis. 
 >
 >
 Existem muitos tipos diferentes de dispositivos Bluetooth, como:
