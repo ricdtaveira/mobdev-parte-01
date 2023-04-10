@@ -124,7 +124,7 @@ mkdir meu_projeto
 cd meu_projeto
 ```
 >
->
+
 1. Inicialize o projeto usando o comando `dart create` seguido do `nome do projeto`:
 >
 ```
