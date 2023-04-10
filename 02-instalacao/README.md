@@ -173,7 +173,7 @@ correspondentes, para garantir que todas as pessoas que trabalham no projeto use
 dependências.
 >
 >
-Além disso, o pub fornece um comando `pub upgrade` para atualizar as dependências do projeto para as 
+Além disso, o **pub** fornece um comando `pub upgrade` para atualizar as dependências do projeto para as 
 versões mais recentes. 
 >
 Ele também fornece um comando `pub publish` para publicar bibliotecas para o repositório de pacotes do Dart, 
