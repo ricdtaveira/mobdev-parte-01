@@ -140,9 +140,9 @@ no qual será criado os arquivos fonte Dart.
 dart run bin/main.dart
 
 ```
-6. O arquivo bin/main.dart contém o código-fonte padrão para o projeto Dart, que inclui uma função main() 
+6. O arquivo `bin/main.dart` contém o código-fonte padrão para o projeto Dart, que inclui uma função `main()` 
 que imprime a mensagem "Hello, World!" na console. Você pode editar esse arquivo ou criar novos arquivos 
-no diretório lib para começar a desenvolver seu projeto.
+no diretório `lib` para começar a desenvolver seu projeto.
 >>
 >
 
