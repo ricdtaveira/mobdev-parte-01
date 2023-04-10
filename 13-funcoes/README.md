@@ -82,5 +82,45 @@ em funções que executam métodos assessores onde parametros são omitidos.
 Os parâmetros são posicionais ou nomeados.
 >
 >
+As funções podem receber quatro tipos diferentes de parâmetros:
+>>
+1. **Parâmetros posicionais**: são parâmetros que são passados para a função pela 
+posição em que aparecem na lista de argumentos. Eles são separados por vírgulas 
+e não têm um nome associado. Por exemplo:
+```
+void soma(int a, int b) {
+  print(a + b);
+}
 
+soma(2, 3); // saída: 5
+
+```
+Acima vemos que os parâmetros a e b são posicionais, pois são passados pela 
+posição em que ocupam na lista de argumentos.
+
+1. **Parâmetros nomeados**: são parâmetros que são identificados pelo nome na 
+lista de argumentos. Eles são precedidos por um símbolo : e podem ser passados 
+em qualquer ordem. Por exemplo:
+```
+void mostrarDados(String nomeAluno, {int matricula, String endereco}) {
+  print('Nome: $nomeAluno');
+  print('Matricula: $matricula');
+  print('Endereço: $endereco');
+}
+
+mostrarDados('João da Silva', matricula: 20230030, endereco: 'Av. Carapinima'); 
+// saída:
+// Nome: João da Silva
+// Matricula: 20230030
+// Endereço: Av. Carapinima
+```
+
+1. *Parâmetros opcionais*: são parâmetros que podem ou não ser passados para a 
+função. Eles são representados pelo símbolo ? após o nome do parâmetro e podem 
+ser posicionais ou nomeados. Por exemplo:
+```
+
+```
+>>
 >
+
