@@ -125,22 +125,22 @@ cd meu_projeto
 ```
 
 
-1. Inicialize o projeto usando o comando `dart create` seguido do `nome do projeto`:
+3. Inicialize o projeto usando o comando `dart create` seguido do `nome do projeto`:
 
 ```
 dart create meu_projeto
 ```
 
-1. A execução desse comando irá criar uma estrutura de diretórios padrão para o projeto Dart, 
-com os arquivos **pubspec.yaml**, **README.md**, **analysis_options.yaml** e um diretório chamado **lib**, 
+4. A execução desse comando irá criar uma estrutura de diretórios padrão para o projeto Dart, 
+com os arquivos **pubspec.yml**, **README.md**, **analysis_options.yaml** e um diretório chamado **lib**, 
 no qual será criado os arquivos fonte Dart. 
 
-1. Para testar a instalação, execute o seguinte comando para imprimir a mensagem "Hello, World!" na console:
+5. Para testar a instalação, execute o seguinte comando para imprimir a mensagem "Hello, World!" na console:
 ```
 dart run bin/main.dart
 
 ```
-1. O arquivo bin/main.dart contém o código-fonte padrão para o projeto Dart, que inclui uma função main() 
+6. O arquivo bin/main.dart contém o código-fonte padrão para o projeto Dart, que inclui uma função main() 
 que imprime a mensagem "Hello, World!" na console. Você pode editar esse arquivo ou criar novos arquivos 
 no diretório lib para começar a desenvolver seu projeto.
 >>
