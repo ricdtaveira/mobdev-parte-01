@@ -150,7 +150,7 @@ no diretório `lib` para começar a desenvolver seu projeto.
 
 ## 2.5.1 Introdução ##
 >
-O pub é um gerenciador de pacotes para o Dart, que ajuda os desenvolvedores a gerenciar 
+O **pub** é um gerenciador de pacotes para o Dart, que ajuda os desenvolvedores a gerenciar 
 as dependências de seus projetos e bibliotecas. 
 >
 >
@@ -158,7 +158,7 @@ Ele permite que você instale, atualize e remova pacotes, bem como publique suas
 bibliotecas para outros desenvolvedores usarem.
 >
 >
-O pub funciona com base em um arquivo pubspec.yaml, que é o manifesto do seu projeto ou biblioteca Dart. 
+O **pub** funciona com base em um arquivo **pubspec.yaml**, que é o manifesto do seu projeto ou biblioteca Dart. 
 >
 Esse arquivo contém informações sobre o `nome`, `versão` e `descrição do projeto`, bem como uma `lista de 
 suas dependências`.
@@ -176,7 +176,7 @@ dependências.
 ## 2.5.2 Instalando uma Biblioteca ##
 
 >
-Para instalar uma biblioteca em um projeto Dart usando o **pub** devemos seguir os seguintes passos:
+Para instalar uma biblioteca em um projeto Dart usando o **pub**, devemos seguir os seguintes passos:
 >>
 1. Abrir o terminal ou prompt de comando e navegue até o diretório raiz do seu projeto Dart.
 
@@ -188,12 +188,12 @@ dependencies:
 ```
 Acima está sendo adicionado a biblioteca **'gmail'** na versão **'0.2.2'**.
 
-1. Salvar o arquivo **'pubspec.yaml'**.
-1. Executar o comando **'pub get'** para baixar e instalar a biblioteca e suas dependências:
+3. Salvar o arquivo **'pubspec.yaml'**.
+4. Executar o comando **'pub get'** para baixar e instalar a biblioteca e suas dependências:
 ```
 pub get
 ```
-1. Importar a biblioteca no código fontes usando a diretiva **'import'**. Por exemplo:
+5. Importar a biblioteca no código fontes usando a diretiva **'import'**. Por exemplo:
 ``` 
 import 'package:gmail/gmail.dart';
 ```
