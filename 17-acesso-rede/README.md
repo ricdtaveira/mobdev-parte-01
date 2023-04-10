@@ -12,8 +12,8 @@ simplificando a comunicação de rede em aplicativos Dart.
 >
 >
 A biblioteca **dart:io** implementa classes para trabalhar com sockets **TCP** e **UDP** 
-(protocolos da camada de transporte), ou permitindo que os desenvolvedores implementem protocolos 
-de rede personalizados ou utilizem protocolos da camada de aplicação existentes, como **HTTP**, 
+(protocolos da `camada de transporte`), ou permitindo que os desenvolvedores implementem protocolos 
+de rede personalizados ou utilizem protocolos da `camada de aplicação` existentes, como **HTTP**, 
 **FTP**, **SMTP**,  etc. 
 >
 >
