@@ -172,6 +172,17 @@ O **pubspec.lock** é gerado automaticamente e contém uma lista exata de todas 
 correspondentes, para garantir que todas as pessoas que trabalham no projeto usem as mesmas versões das 
 dependências.
 >
+>
+Além disso, o pub fornece um comando `pub upgrade` para atualizar as dependências do projeto para as 
+versões mais recentes. 
+>
+Ele também fornece um comando `pub publish` para publicar bibliotecas para o repositório de pacotes do Dart, 
+chamado de **Pub**.
+>
+>
+O **pub** é uma ferramenta essencial para o desenvolvimento de projetos e bibliotecas em Dart, pois 
+permite que você gerencie facilmente as dependências do projeto e mantenha seu código atualizado.
+>
 
 ## 2.5.2 Instalando uma Biblioteca ##
 
