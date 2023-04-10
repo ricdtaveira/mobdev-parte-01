@@ -3,37 +3,38 @@
 ## 17.1 Introdução ##
 >
 A linguagem Dart implementa uma biblioteca para acessar dispositivos em uma rede 
-usando o protocolo TCP/IP DART. É uma biblioteca de programação desenvolvida pelo 
+usando o protocolo **TCP/IP**. É uma biblioteca de programação desenvolvida pelo 
 Google chamada **'dart:io'**. 
 >
 >
-Ela fornece uma abstração de nível mais alto para o acesso ao protocolo TCP/IP, 
+Ela fornece uma abstração de nível mais alto para o acesso ao protocolo **TCP/IP**, 
 simplificando a comunicação de rede em aplicativos Dart.
 >
 >
-A biblioteca DART:IO implementa classes para trabalhar com sockets TCP e UDP, 
-permitindo que os desenvolvedores implementem protocolos de rede personalizados 
-ou utilizem protocolos existentes, como HTTP, FTP, SMTP,  etc. 
+A biblioteca **dart:io** implementa classes para trabalhar com sockets **TCP** e **UDP** 
+(protocolos da camada de transporte), ou permitindo que os desenvolvedores implementem protocolos 
+de rede personalizados ou utilizem protocolos da camada de aplicação existentes, como **HTTP**, 
+**FTP**, **SMTP**,  etc. 
 >
 >
-Os desenvolvedores podem usar a classe Socket para criar um socket TCP e 
-a classe DatagramSocket para criar um socket UDP.
+Os desenvolvedores podem usar a classe Socket para criar um socket **TCP** e 
+a classe **DatagramSocket** para criar um socket **UDP**.
 >
 
 ## 17.2 HTTP ##
 >
-O protocolo HTTP é uma parte fundamental da comunicação de rede na web. 
+O protocolo **HTTP** é uma parte fundamental da comunicação de rede na web. 
 >
 >
 Na linguagem Dart, a biblioteca padrão **dart:io** fornece classes para implementar 
 clientes e servidores **HTTP**.
 >
 >
-Para enviar uma solicitação HTTP em Dart, o desenvolvedor pode usar a classe 
-HttpClient e a classe HttpClientRequest. 
+Para enviar uma solicitação **HTTP** em Dart, o desenvolvedor pode usar a classe 
+**HttpClient** e a classe **HttpClientRequest**. 
 >
 >
-O código abaixo faz um envia uma solicitação HTTP GET para o servidor "exemplo.com" na porta 80.
+O código abaixo faz um envia uma solicitação **HTTP GET** para o servidor "exemplo.com" na porta 80.
 >
 >
 ```
@@ -65,26 +66,31 @@ e lê a resposta do servidor usando o método **transform()** e **join()** da cl
 **HttpResponse**. Ao final, fecha o cliente **HttpClient**.
 >
 >
-No código podemos ver o método await. Ele é usado para esperar a conclusão 
+No código podemos ver o método **await**. Ele é usado para esperar a conclusão 
 das operações de leitura e gravação de rede. 
 >
 >
-Isso ocorre porque essas operações são assíncronas e podem levar algum tempo 
+Isso ocorre porque essas operações são **assíncronas** e podem levar algum tempo 
 para serem concluídas.
 >
 >
-Finalizando, o protocolo HTTP na linguagem Dart é implementado por meio da 
-biblioteca padrão dart:io, que fornece classes para enviar e receber 
-solicitações HTTP. 
+Finalizando, o protocolo **HTTP** na linguagem Dart é implementado por meio da 
+biblioteca padrão **dart:io**, que fornece classes para enviar e receber 
+solicitações **HTTP**. 
 >
 >
-O desenvolvedor pode criar uma solicitação HTTP usando a classe HttpClient e 
-enviar a solicitação usando a classe HttpClientRequest. 
+O desenvolvedor pode criar uma solicitação **HTTP** usando a classe **HttpClient** e 
+enviar a solicitação usando a classe **HttpClientRequest**. 
 >
 O desenvolvedor pode então ler a resposta do servidor usando a classe 
-HttpResponse.
+**HttpResponse**.
+>
+
+## 17.3 FTP ##
+
 >
 
 
+>
 
 
