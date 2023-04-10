@@ -189,6 +189,7 @@ dependencies:
 Acima está sendo adicionado a biblioteca **'gmail'** na versão **'0.2.2'**.
 
 3. Salvar o arquivo **'pubspec.yaml'**.
+
 4. Executar o comando **'pub get'** para baixar e instalar a biblioteca e suas dependências:
 ```
 pub get
