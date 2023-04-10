@@ -220,3 +220,129 @@ O desenvolvedor pode configurar as credenciais **SMTP** para criar uma mensagem 
 O desenvolvedor pode então enviar o e-mail usando o método **send()** da classe **SmtpTransport**.
 >
 
+## 17.5 Bluetooth ##
+
+### 17.5.1 Introdução ###
+>
+Dispositivos Bluetooth são dispositivos eletrônicos que usam a tecnologia 
+Bluetooth para se comunicar sem fio com outros dispositivos compatíveis. 
+>
+>
+O Bluetooth é uma tecnologia de comunicação sem fio de curto alcance que 
+permite que dispositivos se conectem e se comuniquem entre si.
+>
+>
+Existem muitos tipos diferentes de dispositivos Bluetooth, incluindo:
+>>
+1. Fones de ouvido Bluetooth: permitem que você ouça música ou faça chamadas sem fio a partir de um smartphone ou tablet.
+
+1. Alto-falantes Bluetooth: permitem que você transmita música sem fio a partir de um smartphone ou tablet.
+Teclados e mouses Bluetooth: permitem que você controle um computador ou tablet sem a necessidade de fios.
+1. Smartwatches e rastreadores de fitness Bluetooth: permitem que você acompanhe sua atividade física, monitore sua saúde e receba notificações do smartphone sem fio.
+
+1. Dispositivos de automação residencial Bluetooth: permitem que você controle dispositivos domésticos inteligentes, como luzes, termostatos e fechaduras, usando um smartphone ou tablet.
+>>
+>
+>
+Além disso, o Bluetooth também é usado em muitos outros dispositivos, como 
+smartphones, tablets, laptops, impressoras, TVs e carros, para permitir a 
+comunicação sem fio com outros dispositivos compatíveis.
+>
+
+### 17.5.2 Especificação Bluetooth ###
+>
+A especificação oficial do Bluetooth Low Energy (BLE) pode ser encontrada no 
+site do **Bluetooth SIG (Special Interest Group)**, que é o consórcio responsável 
+pelo desenvolvimento do Bluetooth. 
+>
+>
+A especificação **BLE** está disponível para download gratuito no site do 
+Bluetooth SIG.
+>
+>
+Você pode acessar a especificação BLE seguindo os seguintes passos:
+>>
+1. Acesse o site do Bluetooth SIG em https://www.bluetooth.com/;
+
+1.  Clique em "Developers" no menu superior e selecione "Specifications" 
+no menu suspenso.
+
+1. Role a página para baixo até a seção "Bluetooth Core Specifications".
+
+1. Encontre "Bluetooth Core Specification v5.3" ou uma versão mais recente, que 
+é a versão que inclui a especificação BLE.
+
+1. Clique em "Download" para baixar o arquivo PDF contendo a especificação.
+>>
+>
+>
+Observe que a especificação do Bluetooth SIG inclui outras tecnologias Bluetooth, 
+além do BLE. 
+>
+>
+Você pode encontrar informações específicas sobre BLE na seção correspondente do 
+documento. 
+>
+Além disso, o Bluetooth SIG também oferece outras especificações 
+relacionadas, como as especificações de perfil Bluetooth, que definem como os 
+dispositivos Bluetooth devem interagir em casos de uso específicos.
+>
+
+### 17.5.3 Conexão a um Dispositivo Bluetooth usando DART ###
+>
+O acesso a um dispositivo Bluetooth usando o Dart, é possível usando a 
+biblioteca **flutter_blue**, que é uma biblioteca **Flutter** que fornece uma API 
+para interagir com dispositivos Bluetooth de baixa energia (BLE).
+>
+>
+Segue um exemplo simples que conecta e interage com um dispositivo Bluetooth 
+usando a biblioteca **flutter_blue**:
+>
+>
+```
+import 'package:flutter_blue/flutter_blue.dart';
+
+// Iniciar a conexão com o dispositivo Bluetooth
+FlutterBlue flutterBlue = FlutterBlue.instance;
+BluetoothDevice device;
+
+void connectToDevice() async {
+  // Procure por dispositivos Bluetooth disponíveis
+  List<BluetoothDevice> devices = await flutterBlue.scanForDevices(timeout: Duration(seconds: 4));
+
+  // Conecte ao primeiro dispositivo Bluetooth encontrado
+  device = devices[0];
+  await device.connect();
+}
+
+// Ler dados do dispositivo Bluetooth conectado
+void readData() async {
+  List<BluetoothService> services = await device.discoverServices();
+
+  // Encontre o serviço que fornece os dados que você precisa ler
+  BluetoothService service = services.firstWhere((s) => s.uuid == YOUR_SERVICE_UUID);
+
+  // Encontre a característica que fornece os dados que você precisa ler
+  BluetoothCharacteristic characteristic = service.characteristics.firstWhere((c) => c.uuid == YOUR_CHARACTERISTIC_UUID);
+
+  // Leia os dados da característica
+  List<int> value = await characteristic.read();
+  print('Received data: $value');
+}
+
+// Escrever dados para o dispositivo Bluetooth conectado
+void writeData() async {
+  List<BluetoothService> services = await device.discoverServices();
+
+  // Encontre o serviço que aceita os dados que você precisa escrever
+  BluetoothService service = services.firstWhere((s) => s.uuid == YOUR_SERVICE_UUID);
+
+  // Encontre a característica que aceita os dados que você precisa escrever
+  BluetoothCharacteristic characteristic = service.characteristics.firstWhere((c) => c.uuid == YOUR_CHARACTERISTIC_UUID);
+
+  // Escreva os dados na característica
+  await characteristic.write([1, 2, 3]);
+}
+
+
+```
