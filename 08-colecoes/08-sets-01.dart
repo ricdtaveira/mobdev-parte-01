@@ -10,3 +10,4 @@ void main() {
   frutas.add('banana');
   print(frutas); // Saída: {maçã, banana, laranja, abacaxi};
 }
+

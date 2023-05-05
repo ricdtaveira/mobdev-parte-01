@@ -2,7 +2,7 @@
 // Fluxo de controle switch-case
 
 void main() {
-  String diaDaSemana = 'monday';
+  String diaDaSemana = 'sábado';
 
   switch (diaDaSemana) {
     case 'segunda-feira':
@@ -21,6 +21,7 @@ void main() {
       print('Dia de happy hour');
       break;
     case 'sábado':
+      break;
     case 'domingo':
       print('Dia da Feijoada');
       break;
