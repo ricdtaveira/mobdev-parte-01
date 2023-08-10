@@ -5,6 +5,11 @@ class Pessoa {
   late String _nome;
   late int _idade;
 
+  Pessoa(String nome, int idade)  {
+    this.nome = nome;
+    this.idade = idade;
+  }
+
   // Método Acessor.Retorna o valor do atributo _nome.
   // Propriedade que acessa uma fncionalidade como um atributo
   String get nome => _nome;
