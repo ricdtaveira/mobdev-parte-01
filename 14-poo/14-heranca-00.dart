@@ -46,8 +46,8 @@ class Pato extends Animal {
 
 // Utilizando as classes
 void main() {
-  Animal bicho1 = Cachorro("Rabito", 4, true, "Shitzu");
-  Animal bicho2 = Gato("Jerry", 3, true, "Mangará");
+  Animal bicho1 = Cachorro("Rabito", 4, true, "Lazlo");
+  Animal bicho2 = Gato("Jerry", 3, false, "Mangará");
   Animal bicho3 = Pato("Billy", 1, true, "Pé Duro");
   
   bicho1.verbalizar(); // Output: Au au!
