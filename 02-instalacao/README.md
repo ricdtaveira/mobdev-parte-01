@@ -189,12 +189,10 @@ permite que você gerencie facilmente as dependências do projeto e mantenha seu
 >
 O site https://pub.dev/ mantém repositórios de bibliotecas com código
 de funcionalidades que podem ser incorporadas a projetos
-de software.
+de software. Às bibliotecas são atribuidas as suas versões e código exemplo.
 
-às bibliotecas são atribuidas as suas versões e código exemplo.
-
-A pagina https://dart.dev/guides/packages demonstra o o uso de pacotes
-como bibliotecas e ferramentas. São aprsentados os comando do 
+A pagina https://dart.dev/guides/packages demonstra o uso de pacotes
+como bibliotecas e ferramentas. São apresentados os comando do 
 utilitário *pub*.
 
 
