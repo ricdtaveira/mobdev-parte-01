@@ -184,7 +184,24 @@ O **pub** é uma ferramenta essencial para o desenvolvimento de projetos e bibli
 permite que você gerencie facilmente as dependências do projeto e mantenha seu código atualizado.
 >
 
-## 2.5.2 Instalando uma Biblioteca ##
+## 2.5.2 Bibliotecas para compor Projetos Dart e Flutter ##
+
+>
+O site https://pub.dev/ mantém repositórios de bibliotecas com código
+de funcionalidades que podem ser incorporadas a projetos
+de software. Às bibliotecas são atribuidas as suas versões e código exemplo.
+
+A pagina https://dart.dev/guides/packages demonstra o uso de pacotes
+como bibliotecas e ferramentas. São apresentados os comando do 
+utilitário *pub*.
+
+
+
+
+
+>
+
+## 2.5.3 Instalando uma Biblioteca ##
 
 >
 Para instalar uma biblioteca em um projeto Dart usando o **pub**, devemos seguir os seguintes passos:
