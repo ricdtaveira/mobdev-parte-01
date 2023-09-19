@@ -128,7 +128,7 @@ cd meu_projeto
 3. Inicialize o projeto usando o comando `dart create` seguido do `nome do projeto`:
 
 ```
-dart create meu_projeto
+dart create projeto_01
 ```
 
 4. A execução desse comando irá criar uma estrutura de diretórios padrão para o projeto Dart, 

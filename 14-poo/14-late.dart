@@ -8,7 +8,7 @@ class Pessoa {
 
   // Metodo Construtor
   // Inicializando as variáveis após a criação do objeto
-  Pessoa() {
+  Pessoa(String s, int i) {
     nome = "João";
     idade = 30;
   }
@@ -19,7 +19,7 @@ class Pessoa {
   // Constutor com parametros com o mesmo nome dos atributos
   // Usar o objeto atual com a palavra chave this
 
-  Pessoa(String nome, int idade) {
+  PessoaNew(String nome, int idade) {
     this.nome = nome;
     this.idade = idade;
   }
@@ -29,7 +29,7 @@ class Pessoa {
   // Pessoa(this.nome, this.idade);
 
   //Constrtutores Nomeados
-  // Recebe 
+  // Recebe
 
   void imprimirDados() {
     print("Nome: $nome, idade: $idade");
