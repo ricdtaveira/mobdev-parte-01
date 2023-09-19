@@ -1,4 +1,5 @@
-// O operador late faz uma verificação tardia de nulidade em tempo de execução.
+// O operador late faz uma verificação tardia de nulidade em
+// tempo de execução.
 
 class Carro {
   late Motor _motor; // Associação

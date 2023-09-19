@@ -18,9 +18,9 @@ void main() {
   print(minhaLista[2]); // saída: laranja
 
   // Verificando o comprimento da lista
-  print(minhaLista.length); // saída: 3
+  print(minhaLista.length); // saída: 4
 
   // Removendo um elemento da lista
   minhaLista.remove("banana");
-  print(minhaLista); // saída: [maçã, laranja]
+  print(minhaLista); // saída: [maçã, laranja, laranja]
 }
