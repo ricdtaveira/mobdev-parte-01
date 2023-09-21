@@ -21,10 +21,10 @@ void main() {
       'O Valor de orBitABit em hexadecimal é = ${orBitABit.toRadixString(16)}');
 
   int xorBitABit = h ^ i; // Resultado em binário: 00000110 (6 em decimal)
-  print('O Valor de andBitABit em binário é = ${xorBitABit.toRadixString(2)}');
-  print('O Valor de andBitABit em octal é = ${xorBitABit.toRadixString(8)}');
+  print('O Valor de xorBitABit em binário é = ${xorBitABit.toRadixString(2)}');
+  print('O Valor de xorBitABit em octal é = ${xorBitABit.toRadixString(8)}');
   print(
-      'O Valor de andBitABit em hexadecimal é = ${xorBitABit.toRadixString(16)}');
+      'O Valor de xorBitABit em hexadecimal é = ${xorBitABit.toRadixString(16)}');
 
   int deslocamentoDireita =
       h >> 1; // Resultado em binário: 00000010 (2 em decimal)

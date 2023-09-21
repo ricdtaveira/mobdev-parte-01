@@ -54,7 +54,8 @@ grande porte, desde pequenos scripts até aplicativos complexos.
 >>
 >
 7. Moderna:
->> Dart é uma linguagem moderna, com sintaxe clara, fácil de entender e com recursos avançados, como suporte a streams, asynchronismo, type inference e outros.
+>> Dart é uma linguagem moderna, com sintaxe clara, fácil de entender e com recursos avançados, como suporte a streams, asynchronismo, 
+type inference e outros.
 >>
 >
 >

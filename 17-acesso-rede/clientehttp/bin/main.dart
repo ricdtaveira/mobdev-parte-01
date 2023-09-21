@@ -6,7 +6,8 @@ main() async {
   var client = HttpClient();
 
   // Envia uma solicitação GET para o servidor
-  var request = await client.getUrl(Uri.parse('http://www.ifce.edu.br'));
+  var request =
+      await client.getUrl(Uri.parse('http://viacep.com.br/ws/01001000/json/'));
   var response = await request.close();
 
   // Lê a resposta do servidor e a exibe na tela
