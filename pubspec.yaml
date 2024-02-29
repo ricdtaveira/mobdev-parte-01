@@ -12,6 +12,7 @@ dependencies:
   flutter:
     sdk: flutter 
   sqflite: ^2.0.0+3  
+  sqlite3: ^1.11.2
 dev_dependencies:
   lints: ^2.0.0
   test: ^1.21.0
