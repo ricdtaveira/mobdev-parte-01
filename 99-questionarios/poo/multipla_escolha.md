@@ -101,7 +101,7 @@ d) Métodos estáticos não são permitidos em Dart.
 ```
 >
 >
-10. Qual a finalidade da palavra-chave super em uma subclasse Dart?
+10. Qual a finalidade da palavra-chave `super` em uma subclasse Dart?
 ```
 a) Acessar o construtor da superclasse. 
 b) Acessar métodos e atributos da superclasse. 
