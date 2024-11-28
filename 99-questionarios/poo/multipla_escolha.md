@@ -16,16 +16,16 @@ d) Classes em Dart não podem ter atributos ou métodos.
 >
 2. Como você define um construtor nomeado em Dart? 
 ```
-a) Usando a palavra-chave `constructor`. 
+a) Usando a palavra-chave **constructor**. 
 b) Usando o nome da classe seguido por um ponto e o nome do 
    construtor. 
-c) Adicionando o modificador `named` antes da palavra-chave 
-   `constructor`. 
+c) Adicionando o modificador **named** antes da palavra-chave 
+   **constructor**. 
 d) Construtores nomeados não são permitidos em Dart.
 ```
 >
 >
-3. Qual a finalidade do operador `*is*` em Dart? 
+3. Qual a finalidade do operador **is** em Dart? 
 ```
 a) Verificar se dois objetos são do mesmo tipo. 
 b) Comparar o valor de dois objetos. 
@@ -34,7 +34,7 @@ d) Converter um objeto para um tipo diferente.
 ```
 >
 >
-4. O que são *Mixins* em Dart? 
+4. O que são **Mixins** em Dart? 
 ```
 a) Uma forma de herança múltipla. 
 b) Uma forma de reutilizar código de múltiplas classes sem 
@@ -44,7 +44,7 @@ d) Interfaces que definem métodos que as classes devem implementar.
 ```
 >
 >
-5. Qual a diferença entre `*final*` e `*const*` ao declarar atributos 
+5. Qual a diferença entre **final** e **const** ao declarar atributos 
    de classe em Dart? 
 ```
 a) Não há diferença, ambos tornam o atributo imutável. 
@@ -62,9 +62,9 @@ d) final é usado para atributos de classe, enquanto const é
 6. Qual a sintaxe para sobrescrever um método em uma subclasse 
 em Dart? 
 ```
-a) Use a palavra-chave *override* antes da assinatura do método. 
-b) Use a palavra-chave *extends* antes da assinatura do método. 
-c) Use a palavra-chave *super* antes da assinatura do método. 
+a) Use a palavra-chave **override** antes da assinatura do método. 
+b) Use a palavra-chave **extends** antes da assinatura do método. 
+c) Use a palavra-chave **super** antes da assinatura do método. 
 d) Não é possível sobrescrever métodos em Dart.
 ```
 >
