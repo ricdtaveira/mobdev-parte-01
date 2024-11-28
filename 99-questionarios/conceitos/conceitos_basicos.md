@@ -26,7 +26,7 @@ mais avançados.
 5.  Explique o conceito de "sound null safety" em Dart e como ele impacta o desenvolvimento de código.
 >
 
-##Operadores & Controle de Fluxo##
+## Operadores & Controle de Fluxo
 >
 6.  Liste os operadores aritméticos, relacionais e lógicos disponíveis em Dart e explique sua precedência.
 >
@@ -43,7 +43,7 @@ mais avançados.
 10. O que é a instrução `assert` e qual sua utilidade durante o desenvolvimento?
 >
 
-##Funções##
+## Funções
 >
 11. Descreva a sintaxe para declarar uma função em Dart, incluindo a definição de parâmetros e tipo de retorno.
 >
@@ -60,7 +60,7 @@ mais avançados.
 15. Descreva o funcionamento da sintaxe abreviada "arrow" (`=>`) para funções com uma única instrução.
 >
 
-##Coleções & Generics##
+## Coleções & Generics
 
 >
 16. Quais são os principais tipos de coleções disponíveis em Dart (List, Set, Map) e quais as características de cada um?
@@ -78,7 +78,7 @@ mais avançados.
 20. O que são "Iterables" e como eles se relacionam com as coleções em Dart?
 >
 
-##Classes & Objetos##
+## Classes & Objetos
 >
 21. Descreva a sintaxe para declarar uma classe em Dart, incluindo a definição de propriedades, construtores e métodos.
 >
@@ -95,7 +95,7 @@ mais avançados.
 25. O que são interfaces implícitas em Dart e como elas diferem de interfaces explícitas?
 >
 
-##Classes Abstratas & Mixins##
+## Classes Abstratas & Mixins
 >
 26. Explique o conceito de classes abstratas em Dart e quando usá-las.
 >
@@ -112,7 +112,7 @@ mais avançados.
 30. Compare e contraste o uso de Mixins com herança tradicional em Dart.
 >
 
-##Enums##
+## Enums
 >
 31. Descreva a estrutura básica de uma declaração enum em Dart e sua finalidade.
 >
@@ -129,7 +129,7 @@ mais avançados.
 35. Dê um exemplo prático de como enums podem ser utilizados para representar um conjunto predefinido de estados em uma aplicação.
 >
 
-##Tratamento de Erros & Exceções##
+## Tratamento de Erros & Exceções
 >
 36. Descreva o mecanismo de tratamento de exceções em Dart utilizando as palavras-chave `try`, `catch` e `finally`.
 >
@@ -146,7 +146,7 @@ mais avançados.
 40. Como as pilhas de chamadas (stack traces) podem auxiliar na depuração de erros em Dart?
 >
 
-##Assincronia & Concorrência##
+## Assincronia & Concorrência
 >
 41. Explique o conceito de código assíncrono em Dart e como ele se difere de código síncrono.
 >
@@ -163,7 +163,7 @@ mais avançados.
 45. Como a palavra-chave `async*` pode ser utilizada para criar uma Stream de forma mais legível?
 >
 
-##Bibliotecas & Pacotes##
+## Bibliotecas & Pacotes
 >
 46. Descreva o processo de importar bibliotecas em Dart utilizando a palavra-chave `import`.
 >
