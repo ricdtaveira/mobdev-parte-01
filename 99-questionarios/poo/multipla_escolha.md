@@ -1,11 +1,13 @@
 # Questões de Múltipla Escolha
 
 1. Qual das seguintes afirmações sobre classes em Dart é verdadeira? 
+```
 a) Classes em Dart podem ser aninhadas umas dentro das outras. 
 b) Uma classe em Dart pode herdar de múltiplas superclasses. 
 c) Classes em Dart são declaradas em alto nível e não podem ser 
    aninhadas. 
 d) Classes em Dart não podem ter atributos ou métodos.
+```
 
 2. Como você define um construtor nomeado em Dart? 
 a) Usando a palavra-chave constructor. 

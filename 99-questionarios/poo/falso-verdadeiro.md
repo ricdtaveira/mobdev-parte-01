@@ -1,4 +1,4 @@
-# Afirmações Façsas e Verdadeiras #
+# Afirmações Falsa e Verdadeiras #
 >
 Caracterize as afirmações abaixo como Falsa ou Verdadeira. Justifique a resposta.
 >
