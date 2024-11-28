@@ -6,7 +6,7 @@ Caracterize as afirmações abaixo como Falsa ou Verdadeira. Justifique a respos
 1. Em Dart, é possível criar classes dentro de outras classes, como em Java. 
 >
 >
-2. Construtores nomeados permitem criar múltiplos construtores para a mesma classe com diferentes parâmetros. Verdadeiro. [2] 
+2. Construtores nomeados permitem criar múltiplos construtores para a mesma classe com diferentes parâmetros.  
 >
 >
 3. A herança permite que uma subclasse herde todos os atributos e métodos da superclasse, incluindo os privados. 
