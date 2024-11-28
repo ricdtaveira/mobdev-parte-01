@@ -16,11 +16,11 @@ d) Classes em Dart não podem ter atributos ou métodos.
 >
 2. Como você define um construtor nomeado em Dart? 
 ```
-a) Usando a palavra-chave **constructor**. 
+a) Usando a palavra-chave __constructor__*. 
 b) Usando o nome da classe seguido por um ponto e o nome do 
    construtor. 
-c) Adicionando o modificador **named** antes da palavra-chave 
-   **constructor**. 
+c) Adicionando o modificador __named__ antes da palavra-chave 
+   __constructor__. 
 d) Construtores nomeados não são permitidos em Dart.
 ```
 >
