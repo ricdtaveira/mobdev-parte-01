@@ -9,7 +9,7 @@ As questões abordam os conceitos básicos da linguagem, bem como tópicos
 mais avançados.
 >
 
-## Sintaxe Básica & Tipos de Dados##
+## Sintaxe Básica & Tipos de Dados 
 >
 1.  Explique a função do método `main()` em um programa Dart e como ele é declarado.
 >
