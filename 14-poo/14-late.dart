@@ -22,7 +22,7 @@ class Pessoa {
   // Construtor Padrão não recebe nenhum parametro
   //
   //Pessoa() {}
-  // Constutor com parametros com o mesmo nome dos atributos
+  // Construtor com parametros com o mesmo nome dos atributos
   // Usar o objeto atual com a palavra chave this
 
   //PessoaNew(String nome, int idade) {
