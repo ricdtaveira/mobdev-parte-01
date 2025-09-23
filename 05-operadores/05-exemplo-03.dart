@@ -11,7 +11,7 @@ void main() {
   print('maior = d > e -> $maior ');
 
   bool menor = d < e;
-  print('menor = d > e -> $menor');
+  print('menor = d < e -> $menor');
 
   bool maiorOuIgual = d >= e;
   print('maiorouIgual = d >= e -> $maiorOuIgual');
