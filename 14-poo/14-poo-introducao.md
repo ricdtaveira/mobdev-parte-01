@@ -10,7 +10,7 @@ construir software por meio de composição e interação de unidades de
 software chamados de objeto.
 >
 
-### 2 Paradigma de Programação Orientada a Objetos (POO)
+### 2.Paradigma de Programação Orientada a Objetos (POO)
 >
 Um paradigma é uma abordagem ou modelo utilizado para 
 resolver problemas dentro de uma determinada área de 
@@ -26,7 +26,7 @@ implementadas por meio de objetos que têm propriedades
 (atributos) e comportamentos (métodos) e que interagem 
 entre si para resolver problemas.
 >
-### 3 Conceitos Básicos da POO
+### 3. Conceitos Básicos da POO
 >
 Os seguintes conceitos caracterizam a POO: 
 
@@ -59,6 +59,10 @@ haja uma restrição àquilo que não é relevante para o seu uso
 no problema em questão. Isso significa que apenas as 
 características e comportamentos importantes são incluídos 
 em uma classe.
+
+7. Mensagem: A mensagem é a forma como os objetos se
+comunicam entre si. Uma mensagem é enviada de um objeto para
+outro para solicitar que um comportamento seja executado.
 >
 >
 Esses conceitos são a base da POO e ajudam os programadores
