@@ -1,11 +1,33 @@
 ## Programação Orientada a Objetos (POO)
 
-### Introdução
+### 1. Introdução
+>
+A Orientação a Objeto é uma pratica de Engenharia de Software 
+que envolve os processos de analise, projeto e programação. 
+A Programação Orientada a Objeto é um paradigma de programação que 
+em conjunto aos processos de análise e projeto ajudam a 
+construir software por meio de composição e interação de unidades de 
+software chamados de objeto.
+>
 
-### Paradigma de Programação Orientada a Objetos (POO)
-
-### Conceitos Básicos da POO
-<
+### 2 Paradigma de Programação Orientada a Objetos (POO)
+>
+Um paradigma é uma abordagem ou modelo utilizado para 
+resolver problemas dentro de uma determinada área de 
+conhecimento. O paradigma fornece uma forma de pensar e 
+trabalhar como um conjunto de regras, práticas e técnicas 
+que orientam a solução de problemas dentro dessa área de 
+conhecimento.
+>
+>
+A Programação Orientada a Objeto (POO) é um paradigma de 
+programação que se concentra na criação de classes 
+implementadas por meio de objetos que têm propriedades 
+(atributos) e comportamentos (métodos) e que interagem 
+entre si para resolver problemas.
+>
+### 3 Conceitos Básicos da POO
+>
 Os seguintes conceitos caracterizam a POO: 
 
 1. Classe: Uma classe é um modelo ou uma descrição de um 
