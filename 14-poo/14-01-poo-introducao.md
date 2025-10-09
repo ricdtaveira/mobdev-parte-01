@@ -10,7 +10,7 @@ construir software por meio de composição e interação de unidades de
 software chamados de objeto.
 >
 
-### 2.Paradigma de Programação Orientada a Objetos (POO)
+### 2. Paradigma de Programação Orientada a Objetos (POO)
 >
 Um paradigma é uma abordagem ou modelo utilizado para 
 resolver problemas dentro de uma determinada área de 

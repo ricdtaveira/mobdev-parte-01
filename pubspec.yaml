@@ -10,8 +10,8 @@ dependencies:
   http: ^0.13.6
   path: ^1.8.0
   flutter:
-    sdk: flutter 
-  sqflite: ^2.0.0+3  
+    sdk: flutter
+  sqflite: ^2.0.0+3
   sqlite3: ^1.11.2
 dev_dependencies:
   lints: ^2.0.0
