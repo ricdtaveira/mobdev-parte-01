@@ -22,12 +22,24 @@ que define um tipo que possui dados e funcionalidades.
 
 ## Objeto
 >
-
+Um objeto é uma instância de uma classe. Uma instância é como uma variável de programa
+que é alocada na memória, possui uma referência que aponta para os dados e acessa o 
+comportamentos específicos definidos pela classe à qual pertence.
 >
 
 ## Membros de uma Classe
 >
-
+Um membro de uma classe em POO é um elemento que pertence a essa classe. Essa definição
+inclui os atributos e os métodos da classe.
+>
+>
+Os atributos também definidos como variáveis de instância são membros que representam as
+propriedades do objeto e armazenam informações específicas para cada instância da classe.
+Por exemplo, se a classe é "*Aluno*", seus membros de variáveis de instância podem ser
+"*matricula*", "*nome*", "*cpf*", "*data_de_nascimento*", etc.
+Os métodos são membros que definem o comportamento do objeto e realizam funcionalidades
+específicas. Por exemplo, se a classe é "*NotaFiscal*", seus membros de método podem ser
+"*imprimirNotaFiscal*", "*inserirItemdeNotaFiscal*", "*calcularValorNotaFiscal*", etc.
 >
 
 ## Visibilidade de Membros de uma Classe

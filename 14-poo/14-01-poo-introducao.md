@@ -37,7 +37,7 @@ objeto.
 2. Objeto: Um objeto é uma implementação da descrição de uma
 classe na memória. É uma instância de uma classe. Na criação
 de um objeto ou no decorrer de sua existência são atribuídos 
-valores às suas propriedades. Os métodos (funções) definidas na c
+valores às suas propriedades. Os métodos (funções) definidas na 
 classe são executados pelo objeto. 
 
 3. Encapsulamento: O encapsulamento define como os dados e 
@@ -62,7 +62,8 @@ em uma classe.
 
 7. Mensagem: A mensagem é a forma como os objetos se
 comunicam entre si. Uma mensagem é enviada de um objeto para
-outro para solicitar que um comportamento seja executado.
+outro para solicitar que um comportamento seja executado. Um 
+objeto chama as funcionalidades (métodos) publicas de outro objeto. 
 >
 >
 Esses conceitos são a base da POO e ajudam os programadores
