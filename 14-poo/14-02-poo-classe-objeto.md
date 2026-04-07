@@ -60,16 +60,81 @@ class Calculadora {
     } 
 }
 ```
->
 
->
 No exemplo acima, o método **somar** pertence à classe **Calculadora** e é estático, o que
 significa que podemos chamá-lo diretamente da classe, sem criar uma instância (objeto) da classe 
 Calculadora.
 >
-## Visibilidade de Membros de uma Classe
+>
+```dart
+int resultado = Calculadora.somar(10,15); // resultado 25
+print("resultado=$resultado");
+```
+>
+## Visibilidade de Atributos e Métodos
+>
+Os membros de uma classe (atributos e métodos) possuem visibilidade pública ou privada
+reconhecida pelo nome do membro. Se o nome do membro começa pelo símbolo _
+(sublinhado/underline) o membro terá visibilidade privada (private), se não começar com _ terá
+visibilidade pública.
+>
+>
+A visibilidade privada implementa o **encapsulamento** quando estabelece essa visibilidade para
+os membros da classe (atributos e métodos).
+>
+>
+O acesso a atributos públicos de um objeto pode ser feito usando a notação
+<nome_do_objeto>.<atributo> para acessar um atributo do objeto ou
+<nome_do_objeto>.<metodo> para acessar um método.
+>
+>
+O acesso a atributos e métodos privados só pode ser feito por meio de métodos públicos
+definidos na classe. É a única forma de acesso a membros privados de objetos.
+>
+>
+Os métodos assessores e modificadores que veremos a seguir são métodos públicos que são
+capazes de acessar membros privados.
 >
 
+O Modificador **late**s
 >
-
-
+O modificador **late** em Dart é utilizado para atrasar a inicialização de variáveis, permitindo que
+elas sejam inicializadas em um momento posterior ao da declaração.
+>
+>
+Normalmente, quando uma variável é declarada, ela precisa ser inicializada imediatamente com
+um valor ou pode ser declarada sem valor e, em seguida, receber um valor em um momento
+posterior. No entanto, se uma variável declarada sem valor não for inicializada antes de ser
+usada, isso resultará em um **erro em tempo de execução**.
+>
+>
+O modificador **late** permite que uma variável seja declarada sem valor e inicializada
+posteriormente antes de ser usada, sem gerar um erro em tempo de execução. A variável é
+marcada como **late**, o que significa que ela é declarada sem valor, mas será inicializada antes
+da primeira leitura.
+>
+>
+O código abaixo apresenta um exemplo de como usar o modificador late em Dart. Está
+disponível em https://github.com/ricdtaveira/mobdev-parte-01/blob/master/14-poo/14-
+late.dart.
+>
+>>
+```dart
+class Pessoa {
+late String nome;
+late int idade;
+Pessoa() {
+// Inicializando as variáveis após a criação do objeto
+nome = "João";
+idade = 30;
+}
+void imprimirDados() {
+print("Nome: $nome, idade: $idade");
+}
+}
+void main() {
+Pessoa pessoa = Pessoa();
+pessoa.imprimirDados();
+}
+```
+>>
