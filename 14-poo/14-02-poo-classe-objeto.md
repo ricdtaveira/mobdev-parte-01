@@ -118,7 +118,7 @@ O código abaixo apresenta um exemplo de como usar o modificador late em Dart. E
 disponível em https://github.com/ricdtaveira/mobdev-parte-01/blob/master/14-poo/14-
 late.dart.
 >
->>
+>
 ```dart
 class Pessoa {
 late String nome;
@@ -137,4 +137,4 @@ Pessoa pessoa = Pessoa();
 pessoa.imprimirDados();
 }
 ```
->>
+>
