@@ -60,7 +60,7 @@ class Calculadora {
     } 
 }
 ```
-
+>
 No exemplo acima, o método **somar** pertence à classe **Calculadora** e é estático, o que
 significa que podemos chamá-lo diretamente da classe, sem criar uma instância (objeto) da classe 
 Calculadora.
